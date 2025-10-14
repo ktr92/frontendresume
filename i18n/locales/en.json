@@ -1,3 +1,10 @@
 {
-  "welcome": "Welcome"
+  "myname": "Timur Kudashev",
+  "mystatus": "considering offers",
+  "github": "Github",
+  "portfolio": "Portfolio",
+  "whatsapp": "Whatsapp",
+  "telegram": "Telegram",
+  "phone": "Call",
+  "email": "Email"
 }

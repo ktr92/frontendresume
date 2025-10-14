@@ -1,3 +1,10 @@
 {
-  "welcome": "Велком"
+   "myname": "Тимур Кудашев",
+  "mystatus": "рассматриваю предложения",
+  "github": "Github",
+  "portfolio": "Портфолио",
+  "whatsapp": "Whatsapp",
+  "telegram": "Telegram",
+  "phone": "Позвонить",
+  "email": "Email"
 }
