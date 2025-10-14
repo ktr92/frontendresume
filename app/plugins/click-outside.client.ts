@@ -2,6 +2,11 @@
  * Пользовательская директива - выполнить коллбек при клике вне элемента, к которому установлена директива.
  * Коллбек функция передается как значение в директиве через binding.value
  */
+declare global {
+  interface HTMLElement {
+    _unhandler?: (event: MouseEvent) => void;
+  }
+}
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.directive("click-outside", {
     beforeMount(el: HTMLElement, binding: DirectiveBinding) {

@@ -34,3 +34,84 @@
 достижения
 ❖ Информация о себе как о личности (с
 привязкой к вакансии)
+
+##enflish
+1. Contact Details
+
+2. Objective Statement | Personal Statement
+
+Objective Statement (что ты ищешь)
+IT professional with Master’s Degree in Information Technology,
+passionate about user experience development seeks the position of
+Front-end Developer in an exciting and growing company. Coming
+with a year’s experience of writing, and reviewing codes,
+certifications in and with TML, JavaScript, C#, and basics of ASP.NET;
+aiming to enhance the dynamic work of the company’s IT team,
+willing to work flexible hours.
+
+
+Personal statement / Profile ( кто ты )
+A self-motivated and ambitious IT professional, I am
+interested in web programming, such as developing apps
+and building websites. Having worked in a start-up
+company as a front-end developer, I gained experience in
+the field and was responsible for all design and
+development decisions.
+As this area complements my studies, I am keen to gain
+more experience in the field. I am ready to offer my full
+commitment, and be a pleasant and friendly addition to
+your team
+
+3. Career History | Work experience
+- основные задачи, достижения (герундий)
+
+4. Education
+- официальные названия
+
+5. Your online profile | Useful URLs (links)
+
+
+1. Контактная информация + фотография
+
+2. Секция «о себе»/ цель резюме - кто ты, немного опыта в 2 строках, какие заслуги,  что ищешь, 
+ИТ-специалист со степенью магистра в области информационных технологий,
+увлеченный разработкой пользовательского опыта, ищет должность
+Front-end разработчика в интересной и растущей компании. 
+Обладаю годичным опытом написания и проверки кодов,
+сертификациями в области TML, JavaScript, C# и основам ASP.NET;
+стремлюсь улучшить динамичную работу ИТ-команды компании,
+готов работать по гибкому графику.
+
+Целеустремленный и амбициозный ИТ-специалист, я
+интересуюсь веб-программированием, таким как разработка приложений
+и создание веб-сайтов. Работая в начинающей
+компании в качестве front-end разработчика, я приобрел опыт в
+этой области и отвечал за все решения по дизайну и
+разработке.
+Поскольку эта область дополняет мои исследования, я стремлюсь приобрести
+больше опыта в этой области. Я готов полностью
+посвятить себя ей и стать приятным и дружелюбным дополнением к
+вашей команде
+
+3. Опыт работы
+
+4. Образование
+
+Технические навыки
+- продемонстрировать
+глубокое понимание того, что
+подразумевает каждый навык, в каком
+контексте он использовался
+- уровень владения тем или иным навыком (можно в годах или на конкретных примерах)
+- сводка https://skr.sh/sY5JQwvzWzv 
+
+иные навыки:
+❖ владение иностранными языками
+❖ программы, сопутствующие
+основным профессиональным
+инструментам
+❖ навыки из смежных областей,
+которые продемонстрируют
+потенциал для карьерного роста
+
+5. Полезные ссылки на онлайн-профиль
