@@ -15,6 +15,14 @@ declare global {
     prsort: number
     __v: number
   }
+  interface ITimeline {
+    date: string
+    title: string
+    description: string
+    id: string
+    status: boolean
+    badge: string
+  }
   interface IContent {
     contact: IContact[]
     project: IProject[]

@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="bg-gray-50 fixed top-0 left-0 z-20 flex flex-col flex-shrink-0 w-[400px] h-full font-normal duration-75 lg:flex transition-width"
+    class="bg-gray-50 lg:fixed top-0 left-0 z-20 flex flex-col flex-shrink-0 w-full lg:w-[400px] lg:h-full font-normal duration-75 lg:flex transition-width"
     aria-label="Sidebar"
   >
     <div
