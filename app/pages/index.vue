@@ -73,6 +73,9 @@ const aboutlist_li = computed(() => {
 const mainstore = useMainStore()
 const education = mainstore.getEducation
 const experience = mainstore.getExperience
+const { t, locale, messages } = useI18n();
+
+console.log(messages.value)
 </script>
 
 <style scoped></style>

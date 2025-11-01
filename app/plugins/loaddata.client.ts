@@ -39,6 +39,7 @@ export default defineNuxtPlugin(async (nuxtApp) => {
 
   initLocale("project")
   initLocale("experience")
+  initLocale("education")
 
   store.setContent(content)
 })
