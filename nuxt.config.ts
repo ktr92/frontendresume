@@ -9,6 +9,7 @@ export default defineNuxtConfig({
       { code: 'ru', language: 'ru-RU', file: 'ru.json', name: 'Russian' }
     ],
     defaultLocale: 'ru',
+    strategy: 'prefix_except_default', 
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',

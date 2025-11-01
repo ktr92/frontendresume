@@ -1,7 +1,7 @@
 export const useExperienceStore = defineStore('experienceStore', () => {
 
   //state
-  const experience = [
+  const education = [
     {
       date: '2010 - 2015',
       title: 'Филиал Казанского (Приволжского) федерального университета, Набережные Челны',
@@ -9,14 +9,17 @@ export const useExperienceStore = defineStore('experienceStore', () => {
       badge: 'Специалист',
       status: false,
       id: '001'
-    },
+    }
+  ]
+
+  const experience = [
     {
-      date: '2015 - 2018',
-      title: 'VELVETMEDIA, веб-студия г. Набережные Челны',
-      description: 'Frontend разработка + интеграция сайтов на CMS Diafan, Wordpress, Opencart.',
+      date: '2018 - н.в.',
+      title: 'ООО "Эмпис", интернет-агентство полного цикла, г.Москва - empis.ru',
+      description: 'Frontend разработка + поддержка сайтов на CMS Битрикс',
       badge: 'Frontend-разработчик',
-      status: false,
-      id: '002'
+      status: true,
+      id: '004'
     },
     {
       date: '2021 - 2022',
@@ -24,31 +27,24 @@ export const useExperienceStore = defineStore('experienceStore', () => {
       description: 'Frontend разработка на проекте Vue / Nuxt + REST API',
       badge: 'Frontend-разработчик',
       status: false,
-      id: '004'
+      id: '003'
     },
-    {
-      date: '2018 - н.в.',
-      title: 'ООО "Эмпис", интернет-агентство полного цикла, г.Москва - <a href="//www.empis.ru" target="_blank">empis.ru</a> ',
-      description: 'Frontend разработка + поддержка сайтов на CMS Битрикс',
+     {
+      date: '2015 - 2018',
+      title: 'VELVETMEDIA, веб-студия г. Набережные Челны',
+      description: 'Frontend разработка + интеграция сайтов на CMS Diafan, Wordpress, Opencart.',
       badge: 'Frontend-разработчик',
-      status: true,
-      id: '004'
+      status: false,
+      id: '002'
     },
-   /*  {
-      date: '04.2022 - 2023',
-      title: 'ООО "ИПОТЕХ", Иннополис',
-      description: 'Разработка Frontend части приложений Nuxt Vue.',
-      badge: 'Frontend-разработчик',
-      status: 'present',
-      id: '005'
-    }, */
   ]
 
   // getters
   const getExperience= computed(() => experience)
+  const getEducation= computed(() => education)
 
   //actions
  
 
-  return { getExperience }
+  return { getExperience, getEducation }
 })
