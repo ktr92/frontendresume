@@ -3,6 +3,10 @@ declare global {
     i18n?: ITranslatedObject
     [key: string]: string
   }
+  interface ISkills {
+    name: string
+    text: string
+  }
   interface IContact extends ITranslate {
     code: string
     link: string

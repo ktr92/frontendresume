@@ -3,8 +3,67 @@
     {
       "name": "Vue.js",
       "text": ""
+    },
+    {
+      "name": "Nuxt.js",
+      "text": ""
+    },
+    {
+      "name": "Javascript",
+      "text": ""
+    },
+    {
+      "name": "HTML",
+      "text": ""
+    },
+    {
+      "name": "SCSS",
+      "text": ""
+    },
+    {
+      "name": "Typescript",
+      "text": ""
     }
   ],
+  "information": [
+    {
+      "name": "1",
+      "text": "более 10 лет опыта HTML, CSS/SCSS/JQuery (более 100 проектов)"
+    },
+    {
+      "name": "2",
+      "text": "более 7 лет опыта разработки на чистом Javascript - ES6 и выше"
+    },
+    {
+      "name": "3",
+      "text": "более 4 лет опыта разработки на фреймворках - Vue 2 и Vue 3, а также Nuxt 2 и Nuxt 3"
+    },
+    {
+      "name": "4",
+      "text": "более 2 лет опыта работы c TypeScript"
+    },
+    {
+      "name": "5",
+      "text": "имеется опыт работы с REST API, MongoDB, MySQL, Firebase, Prisma ORM, Supabase"
+    },
+    {
+      "name": "6",
+      "text": "небольшой опыт написание тестов Jest / Cypress"
+    },
+    {
+      "name": "7",
+      "text": "использую в работе git, webpack, eslint"
+    },
+    {
+      "name": "8",
+      "text": "имеется опыт работы с CMS Битрикс, Opencart, Wordpress."
+    },
+    {
+      "name": "9",
+      "text": "Ориентируюсь в PHP коде. Имеется опыт работы с C++, Python-Django."
+    }
+  ],
+  "extra": "",
   "experience": [
     {
       "date": "2018 - н.в.",

@@ -3,6 +3,7 @@
   "mystatus": "рассматриваю предложения",
   "github": "Github",
   "portfolio": "Портфолио",
+  "index": "Резюме",
   "whatsapp": "Whatsapp",
   "telegram": "Telegram",
   "phone": "Позвонить",
@@ -14,7 +15,7 @@
   "title_experience": "Опыт работы",
   "title_education": "Образование",
   "title_skills": "Навыки",
-  "title_information": "Extra information"
+  "title_information": "Дополнительная информация"
   
 
 }
