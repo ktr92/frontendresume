@@ -108,13 +108,23 @@
           <h2 class="text-xl font-semibold sm:text-2xl">
             {{ $t("title_information") }}
           </h2>
-          <template v-if="extra">
+           <template v-if="extra">
             <div class="my-4 text-lg">
-              {{ extra }}
+              <ul class="list-disc ml-6">
+                <li v-for="item in extra" :key="item" class="">
+                  <template v-if="item.text">
+                    {{ item.text }} <a :href="item.link" target="_blank" class="text-green-600">{{ item.link }}</a>
+                  </template>
+                  <template v-else>
+                    {{ item }}
+                  </template>
+                 
+                </li>
+              </ul>
             </div>
           </template>
           <template v-else>
-            <div v-for="value in 4" :key="value">
+            <div v-for="value in 6" :key="value">
               <UiSkeleton />
             </div>
           </template>
