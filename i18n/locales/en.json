@@ -6,5 +6,11 @@
   "whatsapp": "Whatsapp",
   "telegram": "Telegram",
   "phone": "Call",
-  "email": "Email"
+  "email": "Email",
+  "title_about": "Profile",
+  "title_format": "Objective",
+  "title_experience": "Work experience",
+  "title_education": "Education",
+  "title_skills": "Skills",
+  "title_information": "Extra information"
 }

@@ -10,6 +10,7 @@ export const useMainStore = defineStore('mainStore', () => {
   const getProjects = computed(() => content.value?.project)
   const getExperience = computed(() => content.value?.experience)
   const getEducation = computed(() => content.value?.education)
+  const getSkills = computed(() => content.value?.skills)
 
   //actions
    function setContent(payload: IContent) {
@@ -17,5 +18,5 @@ export const useMainStore = defineStore('mainStore', () => {
     content.value = payload
   }
 
-  return { getContent, getProjects, getContact, getExperience, getEducation, setContent }
+  return { getSkills, getContent, getProjects, getContact, getExperience, getEducation, setContent }
 })
