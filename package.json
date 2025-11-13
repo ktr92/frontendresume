@@ -20,6 +20,7 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@types/node": "^24.10.1",
     "nuxi": "^3.29.3"
   }
 }

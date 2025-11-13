@@ -13,7 +13,7 @@ declare global {
     text: string
   }
   interface IProject extends ITranslate {
-    _id: string
+    id: string
     prname: string
     prdescription: string
     prtags: string[]

@@ -1,7 +1,7 @@
 <template>
   
   <div class="lg:flex overflow-hidden dark:bg-gray-700 min-h-screen">
-    <Aside />
+    <!-- <Aside /> -->
     <slot />
   </div>
 </template>

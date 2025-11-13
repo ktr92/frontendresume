@@ -27,7 +27,7 @@
 </template>
 
 <script setup lang="ts">
-import translate from "../utils/translate"
+import translate from "@/utils/translate"
 
 const props = defineProps({
   timedata: {
