@@ -10,7 +10,7 @@
           class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-500"
           >{{ item.date }}</time
         >
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+        <h3 class="text-lg font-semibold text-gray-700 dark:text-white leading-[1.4]">
           {{ translate(item, item.title) }}
         </h3>
         <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">

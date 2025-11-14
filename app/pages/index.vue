@@ -7,7 +7,7 @@
         class="grid grid-cols-1 px-4 pt-6 xl:grid-cols-2 xl:gap-8 dark:bg-gray-700 text-gray-700 dark:text-white"
       >
         <div class="mb-4 col-span-1 xl:mb-2">
-          <h1 class="text-xl font-semibold sm:text-2xl">
+          <h1 class="text-xl font-semibold sm:text-2xl text-gray-700 dark:text-white">
             {{ $t("title_about") }}
           </h1>
           <div class="my-4 text-lg max-w-[1000px]">
@@ -15,7 +15,7 @@
           </div>
         </div>
         <div class="mb-4 col-span-1 xl:mb-2">
-          <h2 class="text-xl font-semibold sm:text-2xl">
+          <h2 class="text-xl font-semibold sm:text-2xl text-gray-700 dark:text-white">
             {{ $t("title_format") }}
           </h2>
           <div class="my-4 text-lg max-w-[1000px]">
@@ -34,7 +34,7 @@
         class="grid grid-cols-1 px-4 pt-6 xl:grid-cols-2 xl:gap-8 dark:bg-gray-700"
       >
         <div class="mb-4 col-span-1 xl:mb-2">
-          <h2 class="text-xl font-semibold sm:text-2xl">
+          <h2 class="text-xl font-semibold sm:text-2xl text-gray-700 dark:text-white">
             {{ $t("title_experience") }}
           </h2>
           <template v-if="experience">
@@ -50,7 +50,7 @@
         </div>
 
         <div class="mb-4 col-span-1 xl:mb-2">
-          <h2 class="text-xl font-semibold sm:text-2xl">
+          <h2 class="text-xl font-semibold sm:text-2xl text-gray-700 dark:text-white">
             {{ $t("title_education") }}
           </h2>
 
@@ -70,14 +70,14 @@
         class="grid grid-cols-1 px-4 pt-6 xl:grid-cols-2 xl:gap-8 dark:bg-gray-700"
       >
         <div class="mb-4 col-span-1 xl:mb-2">
-          <h2 class="text-xl font-semibold sm:text-2xl">
+          <h2 class="text-xl font-semibold sm:text-2xl text-gray-700 dark:text-white">
             {{ $t("title_skills") }}
           </h2>
           <template v-if="skills">
             <div class="my-4 text-lg">
               <div class="flex flex-wrap gap-4">
                 <div v-for="skill in skills" :key="skill.name">
-                  <span class="text-green-900 font-bold">{{ skill.name }}</span>
+                  <span class="text-green-900 font-bold dark:text-white">{{ skill.name }}</span>
                   <span>{{ skill.text }}</span>
                 </div>
               </div>
@@ -90,8 +90,8 @@
           </template>
            <template v-if="informationlist">
             <div class="my-4 text-lg">
-              <ul class="list-disc ml-6">
-                <li v-for="information in informationlist" :key="information.name" class="">
+              <ul class="list-disc ml-6 text-gray-700 dark:text-white">
+                <li v-for="information in informationlist" :key="information.name" class="leading-[1.4] mb-2">
                   {{ information.text }}
                 </li>
               </ul>
@@ -105,13 +105,13 @@
         </div>
 
         <div class="mb-4 col-span-1 xl:mb-2">
-          <h2 class="text-xl font-semibold sm:text-2xl">
+          <h2 class="text-xl font-semibold sm:text-2xl text-gray-700 dark:text-white">
             {{ $t("title_information") }}
           </h2>
            <template v-if="extra">
             <div class="my-4 text-lg">
-              <ul class="list-disc ml-6">
-                <li v-for="item in extra" :key="item" class="">
+              <ul class="list-disc ml-6 text-gray-700 dark:text-white">
+                <li v-for="item in extra" :key="item" class="leading-[1.4] mb-2">
                   <template v-if="item.text">
                     {{ item.text }} <a :href="item.link" target="_blank" class="text-green-600">{{ item.link }}</a>
                   </template>

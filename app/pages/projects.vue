@@ -12,7 +12,7 @@
             <div
               v-for="project in projects"
               :key="project.id"
-              class="mb-2 rounded-md p-2"
+              class="rounded-md py-1 px-2 border-transparent bg-gray-100 dark:bg-gray-800 mb-1"
               :class="{ active: activeId === project.id }"
             >
               <div
@@ -21,13 +21,13 @@
                 @click="toggleItem(project.id)"
               >
                 <div>
-                  <div v-if="project.prname">
+                  <div v-if="project.prname" class="text-gray-700 dark:text-white text-md mb-2">
                     {{ translate(project, project.prname) }}
                   </div>
                 </div>
                 <div>
                   <div v-if="project.prtags">
-                    <div class="flex gap-4 items-center">
+                    <div class="flex gap-1 items-center">
                       <div
                         v-for="prtag in project.prtags"
                         :key="prtag"
@@ -37,48 +37,30 @@
                           :src="`/img/${prtag}.svg`"
                           class="w-6 h-6 block m-auto"
                         />
-                        <div
-                          class="text-[10px] text-gray-500 block leading-none"
-                        >
-                          {{ prtag }}
-                        </div>
+                      
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <Transition>
-                <div v-show="activeId === project.id" class="active-content">
-                  <div>
-                    <div class="mb-2 text-gray-500 text-sm">
+                <div  class="active-content" :class="{activecontent: activeId === project.id }">
+                  <div class="overflow-hidden">
+                    <div class="mb-4 text-gray-600 dark:text-white text-[15px] leading-[1.4]">
                       {{ project.prdescription }}
                     </div>
-                    <div class="flex items-center gap-2">
-                      <a
-                        :href="project.prlink"
-                        target="_blank"
-                        class="rounded-md border border-gray-200 py-2 px-4 text-sm"
-                      >
+                    <div class="flex items-center gap-2 mb-2">
+                      <UiButton :link="project.prlink">
                         {{ $t("DEMO") }}
-                      </a>
-                      <a
-                        :href="project.prlink"
-                        target="_blank"
-                        class="rounded-md border border-gray-200 py-2 px-4 text-sm"
-                      >
+                      </UiButton>
+                      <UiButton :link="project.prwork">
                         {{ $t("WEBSITE") }}
-                      </a>
-                      <a
-                        :href="project.prlink"
-                        target="_blank"
-                        class="rounded-md border border-gray-200 py-2 px-4 text-sm"
-                      >
+                      </UiButton>
+                      <UiButton :link="project.prgit">
                         {{ $t("GITHUB") }}
-                      </a>
+                      </UiButton>
                     </div>
                   </div>
                 </div>
-              </Transition>
             </div>
           </div>
         </div>
@@ -94,9 +76,12 @@
 
 <script setup lang="ts">
 import translate from "@/utils/translate"
-const activeId = ref("")
 const mainstore = useMainStore()
 const projects: IProject[] = mainstore.getProjects ? mainstore.getProjects : []
+const activeId = ref('')
+  if (projects && projects[0]) {
+    activeId.value = (projects[0].id)
+  }
 
 const toggleItem = (id: string) => {
   activeId.value !== id ? (activeId.value = id) : ""
@@ -105,25 +90,20 @@ const toggleItem = (id: string) => {
 </script>
 
 <style scoped>
-@keyframes accordion {
-  0% {
-    max-height: 0;
-  }
 
-  100% {
-    max-height: unset;
-  }
-}
 .active {
-  background: #fff;
-  box-shadow: 0 4px 4px #7364b31a;
-  border: 1px solid #7364b31a;
+  @apply bg-white dark:bg-gray-700;
+
+ 
 }
 .active-content {
-  animation: accordion 0.3s linear;
-  max-height: 0;
+ display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease-out;
+  overflow: hidden;
 }
-.active .active-content {
-  max-height: unset;
+.activecontent {
+   grid-template-rows: 1fr;
 }
+
 </style>

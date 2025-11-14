@@ -302,7 +302,7 @@
       "id": "62409c57a20ea79d992ab7a3",
       "prname": "Сайт-резюме NuxtJS MongoDB",
       "prdescription": "- Vue2 Nuxt2\n- Использована UI библиотека ElementUI\n- Админ-панель с авторизацией https://nuxtresume.vercel.app/admin\n- Добавление проектов через админ-панель https://skr.sh/sPj6itSh338 \n- Сохрание проектов в базе данных MongoDB",
-      "prtags": ["nuxt", "vue", "mongodb", "elementui", "scss"],
+      "prtags": ["nuxt", "vue", "mongodb", "vuetify", "scss"],
       "prlink": "//nuxtresume-20-99g1.vercel.app",
       "prgit": "https://github.com/ktr92/nuxtresume_20",
       "prwork": "",
