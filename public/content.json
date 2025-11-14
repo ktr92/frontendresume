@@ -1,4 +1,5 @@
 {
+  
   "skills": [
     {
       "name": "Vue.js",
@@ -71,8 +72,7 @@
       "text":  "Имеется опыт работы на фрилансе ",
       "link": "https://www.fl.ru/users/ktr992/opinions/#profile-nav"
     }
-   ,
-    ""
+   
   ],
   "experience": [
     {
