@@ -10,8 +10,10 @@
           <h1 class="text-xl font-semibold sm:text-2xl text-gray-700 dark:text-white">
             {{ $t("title_about") }}
           </h1>
-          <div class="my-4 text-lg max-w-[1000px]">
-            <p>{{ $t("about") }}</p>
+          <div class="my-4 text-lg max-w-[1000px]" >
+            <p v-for="item in about" :key="item.id">
+              {{ translate(item, item.text) }}
+            </p>
           </div>
         </div>
         <div class="mb-4 col-span-1 xl:mb-2">
@@ -20,9 +22,9 @@
           </h2>
           <div class="my-4 text-lg max-w-[1000px]">
             <ul class="ml-4">
-              <li v-for="item in aboutlist_li" class="list-disc">
+              <li v-for="item in aboutlist" class="list-disc">
                 <span v-if="item.length">
-                  {{ item }}
+                  {{ translate(item, item.text) }}
                 </span>
               </li>
             </ul>
@@ -37,7 +39,7 @@
           <h2 class="text-xl font-semibold sm:text-2xl text-gray-700 dark:text-white">
             {{ $t("title_experience") }}
           </h2>
-          <template v-if="experience">
+          <template v-if="experience && experience.length">
             <div class="my-4 text-lg">
               <UiTimeline :timedata="experience" />
             </div>
@@ -54,7 +56,7 @@
             {{ $t("title_education") }}
           </h2>
 
-          <template v-if="education">
+          <template v-if="education && education.length">
             <div class="my-4 text-lg">
               <UiTimeline :timedata="education" />
             </div>
@@ -76,7 +78,7 @@
           <template v-if="skills">
             <div class="my-4 text-lg">
               <div class="flex flex-wrap gap-4">
-                <div v-for="skill in skills" :key="skill.name">
+                <div v-for="skill in skills" :key="skill.id">
                   <span class="text-green-900 font-bold dark:text-white">{{ skill.name }}</span>
                   <span>{{ skill.text }}</span>
                 </div>
@@ -88,11 +90,11 @@
               <UiSkeleton />
             </div>
           </template>
-           <template v-if="informationlist">
+           <template v-if="information">
             <div class="my-4 text-lg">
               <ul class="list-disc ml-6 text-gray-700 dark:text-white">
-                <li v-for="information in informationlist" :key="information.name" class="leading-[1.4] mb-2">
-                  {{ translate(information, information.text) }}
+                <li v-for="item in information" :key="information.id" class="leading-[1.4] mb-2">
+                  {{ translate(item, item.text) }}
                 </li>
               </ul>
             </div>
@@ -111,12 +113,12 @@
            <template v-if="extra">
             <div class="my-4 text-lg">
               <ul class="list-disc ml-6 text-gray-700 dark:text-white">
-                <li v-for="item in extra" :key="item.text" class="leading-[1.4] mb-2">
+                <li v-for="item in extra" :key="item.id" class="leading-[1.4] mb-2">
                   <template v-if="item.text">
-                    {{ item.text }} <a :href="item.link" target="_blank" class="text-green-600">{{ item.link }}</a>
+                    {{ translate(item, item.text) }} <a :href="item.link" target="_blank" class="text-green-600">{{ item.link }}</a>
                   </template>
                   <template v-else>
-                    {{ item }}
+                    {{ translate(item, item.text) }}
                   </template>
                  
                 </li>
@@ -136,16 +138,22 @@
 </template>
 
 <script setup lang="ts">
-const aboutlist = $t("aboutlist")
-const aboutlist_li = computed(() => {
-  return aboutlist.split(".").filter((item) => item.length > 1)
-})
+
 const mainstore = useMainStore()
-const education = mainstore.getEducation
-const experience = mainstore.getExperience
+const skills = mainstore.getContentBy("skills")
+const experience = mainstore.getContentBy("experience")
+const information = mainstore.getContentBy("information")
+const extra = mainstore.getContentBy("extra")
+const about = mainstore.getContentBy("about")
+const education = mainstore.getContentBy("education")
+const aboutlist = mainstore.getContentBy("aboutlist")
+
+/* const experience = mainstore.getExperience
 const skills = mainstore.getSkills
 const informationlist = mainstore.getInformation
 const extra = mainstore.getExtra
+const about = mainstore.getAbout
+const aboutlist = mainstore.getAboutlist */
 </script>
 
 <style scoped></style>

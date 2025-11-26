@@ -40,6 +40,6 @@ export default defineNuxtPlugin(async (nuxtApp) => {
   contentKeys.forEach(item => {
     initLocale(item)
   })
-
   store.setContent(content)
+
 })

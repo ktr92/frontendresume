@@ -35,7 +35,7 @@
 </template>
 
 <script setup lang="ts">
-const links = useMainStore().getContact
+const links = useMainStore().getContentBy("contact")
 const route = useRoute()
 const isprojects = computed(() => route.path === '/projects')
 </script>
