@@ -23,7 +23,7 @@
           <div class="my-4 text-lg max-w-[1000px]">
             <ul class="ml-4">
               <li v-for="item in aboutlist" class="list-disc">
-                <span v-if="item.length">
+                <span >
                   {{ translate(item, item.text) }}
                 </span>
               </li>
