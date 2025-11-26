@@ -2,11 +2,11 @@
   "about": [
     {
       "id": "about1",
-      "text": "Ищу работу Frontend разработчиком в крупной или растущей компании в сфере информационных технологий. Обладая опытом работы более 10 лет от верстки сайтов до разработки веб приложений, заинтересован в развитии навыков и изучении новых возможностей.",
+      "text": "Ищу работу Frontend разработчиком в компании в сфере информационных технологий. Предлагаю свой опыт и навыки для полезного влияния на ваш продукт. Кроме того, заинтересован в развитии своих навыков и изучении новых возможностей.",
       "i18n": {
         "text": {
-          "ru": "Ищу работу Frontend разработчиком в крупной или растущей компании в сфере информационных технологий. Обладая опытом работы более 10 лет от верстки сайтов до разработки веб приложений, заинтересован в развитии навыков и изучении новых возможностей.",
-          "en": "I am looking for a job as a Frontend developer in a large or growing information technology company. Having more than 10 years of experience from website layout to web application development, I am interested in developing skills and exploring new opportunities."
+          "ru": "Ищу работу Frontend разработчиком в компании в сфере информационных технологий. Предлагаю свой опыт и навыки для полезного влияния на ваш продукт. Кроме того, заинтересован в развитии своих навыков и изучении новых возможностей.",
+          "en": "I am looking for a job as a Frontend developer in an information technology company. I offer my experience and skills to have a useful impact on your product. In addition, he is interested in developing his skills and exploring new opportunities."
         } 
       }
     }
@@ -14,6 +14,7 @@
   "aboutlist": [
     {
       "id": "aboutlist1",
+      "text": "Полный рабочий день. Офис или удаленный формат.  Готов к переезду и командировкам.",
       "i18n": {
         "text": {
           "ru": "Полный рабочий день. Офис или удаленный формат.  Готов к переезду и командировкам.",
