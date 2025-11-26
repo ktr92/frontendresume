@@ -3,11 +3,10 @@ function getKeyByValue(object: IObjectIndex, value: string) {
 }
 
 export default (item: IObjectIndex, value: string) => {
-
    const { $i18n } = useNuxtApp()
 
   const key = getKeyByValue(item, value)
-
+  console.log($i18n.t(`${item.id}_${key}`))
   if ($i18n.te(`${item.id}_${key}`)) {
     return $i18n.t(`${item.id}_${key}`)
   }

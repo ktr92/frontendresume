@@ -15,7 +15,7 @@
         </a>
       </div>
       <div class="pt-2 space-y-2" >
-        <NuxtLink :to="isprojects ? '/' : '/projects'"
+        <NuxtLinkLocale :to="isprojects ? '/' : '/projects'"
           class="flex items-center text-base  mb-4 text-gray-900 transition duration-75 rounded-lg hover:bg-gray-100 group dark:text-gray-200 dark:hover:bg-gray-700"
         >
            <UiIcon
@@ -23,7 +23,7 @@
             classes="h-8 rounded-full w-8  block"
           />
           <span class="ml-3 text-green-500 font-bold" sidebar-toggle-item="">{{ isprojects ? $t("index") : $t("portfolio") }}</span>
-        </NuxtLink>
+        </NuxtLinkLocale>
       </div>
     </template>
     <template v-else>

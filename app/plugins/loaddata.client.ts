@@ -33,13 +33,13 @@ export default defineNuxtPlugin(async (nuxtApp) => {
         }
       })
     }
-
-
   }
 
-  initLocale("project")
-  initLocale("experience")
-  initLocale("education")
+  // применяем для всех свойств файла контента
+  const contentKeys = Object.keys(content)
+  contentKeys.forEach(item => {
+    initLocale(item)
+  })
 
   store.setContent(content)
 })

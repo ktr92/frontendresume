@@ -42,7 +42,7 @@ declare global {
   }
   type IContentList = IContact[] | IProject[] | IExperience[]
   type IContentItem = IContact | IProject | IExperience
-  type IContentType = "project" | "experience" | "contact" | "education"
+  type IContentType = string
   interface IContent {
     [key: string]: IContentList
     contact: IContact[]

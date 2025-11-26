@@ -1,5 +1,4 @@
 {
-  
   "skills": [
     {
       "name": "Vue.js",
@@ -28,76 +27,215 @@
   ],
   "information": [
     {
-      "name": "1",
-      "text": "более 10 лет опыта HTML, CSS/SCSS/JQuery (более 100 проектов)"
+      "id": "information1",
+      "text": "более 10 лет опыта HTML, CSS/SCSS/JQuery (более 100 проектов)",
+      "i18n": {
+        "text": {
+          "ru": "Более 10 лет опыта HTML, CSS, JQuery (более 100 проектов).",
+          "en": "More than 10 years of HTML, CSS, JQuery experience (over 100 projects)."
+        }
+      }
     },
     {
-      "name": "2",
-      "text": "более 7 лет опыта разработки на чистом Javascript - ES6 и выше"
+      "id": "information2",
+      "text": "более 7 лет опыта разработки на чистом Javascript - ES6 и выше",
+      "i18n": {
+        "text": {
+          "ru": "Более 7 лет опыта разработки на чистом Javascript.",
+          "en": "More than 7 years of Native Javascript code experience."
+        }
+      }
     },
     {
-      "name": "3",
-      "text": "более 4 лет опыта разработки на фреймворках - Vue 2 и Vue 3, а также Nuxt 2 и Nuxt 3"
+      "id": "information3",
+      "text": "более 4 лет опыта разработки на фреймворках - Vue 2 и Vue 3, а также Nuxt 2 и Nuxt 3",
+      "i18n": {
+        "text": {
+          "ru": "Более 7 лет опыта разработки на чистом Javascript.",
+          "en": "More than 7 years of Native Javascript code experience."
+        }
+      }
     },
     {
-      "name": "4",
-      "text": "более 2 лет опыта работы c TypeScript"
+      "id": "information4",
+      "text": "более 2 лет опыта работы c TypeScript",
+      "i18n": {
+        "text": {
+          "ru": "Более 2 лет опыта работы c TypeScript.",
+          "en": "More than 2 years of Typescript code experience."
+        }
+      }
     },
     {
-      "name": "5",
-      "text": "имеется опыт работы с REST API, MongoDB, MySQL, Firebase, Prisma ORM, Supabase"
+      "id": "information5",
+      "text": "имеется опыт работы с REST API, MongoDB, MySQL, Firebase, Prisma ORM, Supabase",
+      "i18n": {
+        "text": {
+          "ru": "Имеется опыт работы с REST API, MongoDB, MySQL, Firebase, Prisma ORM, Supabase.",
+          "en": "Experience with REST API, MongoDB, MySQL, Firebase, Prisma ORM, Supabase."
+        }
+      }
     },
     {
-      "name": "6",
-      "text": "небольшой опыт написание тестов Jest / Cypress"
+      "id": "information6",
+      "text": "небольшой опыт написание тестов Jest / Cypress",
+      "i18n": {
+        "text": {
+          "ru": "Небольшой опыт написание тестов Jest, Cypress.",
+          "en": "A little experience writing Jest, Cypress test."
+        }
+      }
     },
     {
-      "name": "7",
-      "text": "использую в работе git, webpack, eslint"
+      "id": "information7",
+      "text": "использую в работе git, webpack, eslint",
+      "i18n": {
+        "text": {
+          "ru": "Использую в работе git, webpack, eslint.",
+          "en": "Using git, webpack, eslint."
+        }
+      }
     },
     {
-      "name": "8",
-      "text": "имеется опыт работы с CMS Битрикс, Opencart, Wordpress."
+      "id": "information8",
+      "text": "имеется опыт работы с CMS Битрикс, Opencart, Wordpress.",
+      "i18n": {
+        "text": {
+          "ru": "Имеется опыт работы с CMS Битрикс, Opencart, Wordpress",
+          "en": "Experience with CMS Bitrix, Opencart, Wordpress"
+        }
+      }
     },
     {
-      "name": "9",
-      "text": "Ориентируюсь в PHP коде. Имеется опыт работы с C++, Python-Django."
+      "id": "information9",
+      "text": "Ориентируюсь в PHP коде. Имеется опыт работы с C++, Python-Django.",
+      "i18n": {
+        "text": {
+          "ru": "Ориентируюсь в PHP коде, C++, Python, Django.",
+          "en": "Familiar with PHP code, C++, Python, Django"
+        }
+      }
     }
   ],
   "extra": [
-    "Знание Английского языка на уровне B1",
-    "Имеется опыт работы удаленно в команде, а также в офисе компании",
-    "Имеется опыт краткосрочной проектной работы в составе команды",
     {
-      "text":  "Имеется опыт работы на фрилансе ",
-      "link": "https://www.fl.ru/users/ktr992/opinions/#profile-nav"
-    }
-   
+      "id": "extra1",
+      "text": "Знание Английского языка на уровне B1",
+      "i18n": {
+        "text": {
+          "ru": "Знание Английского языка на уровне B1",
+          "en": "English language level B1"
+        }
+      }
+    },
+    {
+      "id": "extra2",
+      "text": "Имеется опыт работы удаленно и в офисе компании",
+      "i18n": {
+        "text": {
+          "ru": "Опыт работы удаленно и в офисе компании",
+          "en": "Experience remotely and in the company's office"
+        }
+      }
+    },
+    {
+      "id": "extra3",
+      "text": "Имеется опыт краткосрочной проектной работы в составе команды",
+      "i18n": {
+        "text": {
+          "ru": "Опыт краткосрочной проектной работы в составе команды",
+          "en": "Experience with short-term project as a part of a team"
+        }
+      }
+    },
+    {
+      "id": "extra4",
+      "text": "Имеется опыт работы над индивидуальными проектами",
+      "i18n": {
+        "text": {
+          "ru": "Имеется опыт работы над индивидуальными проектам",
+          "en": "Experience working on individual projects"
+        }
+      }
+    },
+    {
+      "id": "extra5",
+      "text": "Имеется опыт работы на фрилансе",
+      "link": "https://www.fl.ru/users/ktr992/opinions/#profile-nav",
+      "i18n": {
+        "text": {
+          "ru": "Имеется опыт работы на фрилансе",
+          "en": "Experience working as a freelancer"
+        }
+      }
+    }   
   ],
   "experience": [
     {
-      "date": "2018 - н.в.",
-      "title": "ООО \"Эмпис\", интернет-агентство полного цикла, г.Москва - empis.ru",
+      "date": "2019 - 2025",
+      "title": "ООО \"Эмпис\", интернет-агентство полного цикла, г.Москва (www.empis.ru)",
       "description": "Frontend разработка + поддержка сайтов на CMS Битрикс",
       "badge": "Frontend-разработчик",
       "status": true,
-      "id": "004"
+      "id": "004",
+      "i18n": {
+        "title": {
+          "ru": "ООО \"Эмпис\" интернет-агентство полного цикла, г.Москва (www.empis.ru)",
+          "en": "LLC \"EMPIS\" full-service online agency, Moscow (www.empis.ru)"
+        },
+        "description": {
+          "ru": "Всесторонее применение и улучшение навыков HTML, CSS, Javascript, Vue. Верстка многостраничных сайтов, разработка приложений и мини-игр на Vue, кросплатформенная верстка HTML писем, верстка для PDF документов. Получен опыт работы c Битрикс CMS.",
+          "en": "Comprehensive using and imporoving HTML, CSS, Javascript, Vue skills. Multi-page websites frontend coding, developing apps and mini-games on Vue, cross-platform E-mail HTML coding, HTML coding for PDF documents. Getting experience with Bitrix CMS."
+        },
+        "badge": {
+          "ru": "Frontend разработчик (удаленно)",
+          "en": "Frontend Developer (remotely)"
+        }
+      }
     },
     {
-      "date": "2021 - 2022",
-      "title": "ООО ИПОТЕХ. Иннополис",
+      "date": "2022 - 2023",
+      "title": "ООО ИПОТЕХ Иннополис",
       "description": "Frontend разработка на проекте Vue / Nuxt + REST API",
       "badge": "Frontend-разработчик",
       "status": false,
-      "id": "003"
+      "id": "003",
+      "i18n": {
+        "title": {
+          "ru": "ООО \"ИПОТЕХ\". Иннополис",
+          "en": "LLC \"IPOTEX\", Innopolis"
+        },
+        "description": {
+          "ru": "Frontend разработка проекта Vue, Nuxt, REST API. <br>Создание интерфейса для приложения поиска и оформления сделки приобретения недвижимости. Помимо успешного решения поставленной задачи, получен опыт работы с Микросервисами, REST API, а также написание тестов с помощью Jest, Cypress.",
+          "en": "Frontend project developing Vue, Nuxt, REST API. <br>Developing of user interface for an application for search and execution of real estate deals. Successful solving of the task. Getting experience with Microservices, REST API, coding tests using Jest, Cypress."
+        },
+        "badge": {
+          "ru": "Frontend разработчик (удаленно)",
+          "en": "Frontend Developer (remotely)"
+        }
+      }
     },
     {
-      "date": "2015 - 2018",
+      "date": "2015 - 2019",
       "title": "VELVETMEDIA, веб-студия г. Набережные Челны",
-      "description": "Frontend разработка + интеграция сайтов на CMS Diafan, Wordpress, Opencart.",
+      "description": "Frontend разработка, интеграция сайтов на CMS Diafan, Wordpress, Opencart.",
       "badge": "Frontend-разработчик",
       "status": false,
-      "id": "002"
+      "id": "002",
+      "i18n": {
+        "title": {
+          "ru": "ООО \"VELVETMEDIA\" веб-студия, Набережные Челны",
+          "en": "LLC \"VELVETMEDIA\" web-company, Naberezhnye Chelny"
+        },
+        "description": {
+          "ru": "Frontend разработка, интеграция CMS Diafan, Wordpress, Opencart. Получение и улучшение навыков HTML, CSS и Javascript для разработки полноценных сайтов. Получен опыт работы с PHP для интеграции сайтов на CMS.",
+          "en": "Frontend developing, integration CMS Diafan, Wordpress, Opencart. <br> Acquiring and improving HTML, CSS, Javascript code skills for deleloping full-fledged websites. Getting experience working with PHP for CMS website integration."
+        },
+        "badge": {
+          "ru": "Frontend разработчик (офис)",
+          "en": "Frontend Developer (office)"
+        }
+      }
     }
   ],
   "education": [
@@ -160,7 +298,7 @@
     {
       "id": "6696c802f2e8ee376f9405b9",
       "prname": "AZLOG WIDGET - Виджет калькулятора грузоперевозок ",
-      "prdescription": "Верстка виджета калькулятора грузоперевозок для возможности встраивания на сторонние сайты.",
+      "prdescription": "Разработка виджета калькулятора грузоперевозок для возможности встраивания на сторонние сайты.",
       "prtags": ["html", "js", "css"],
       "prlink": "https://ktr92.github.io/azlog_widget/index_v2.html",
       "prgit": "https://github.com/ktr92/azlog_widget",

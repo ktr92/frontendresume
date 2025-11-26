@@ -92,7 +92,7 @@
             <div class="my-4 text-lg">
               <ul class="list-disc ml-6 text-gray-700 dark:text-white">
                 <li v-for="information in informationlist" :key="information.name" class="leading-[1.4] mb-2">
-                  {{ information.text }}
+                  {{ translate(information, information.text) }}
                 </li>
               </ul>
             </div>
@@ -111,7 +111,7 @@
            <template v-if="extra">
             <div class="my-4 text-lg">
               <ul class="list-disc ml-6 text-gray-700 dark:text-white">
-                <li v-for="item in extra" :key="item" class="leading-[1.4] mb-2">
+                <li v-for="item in extra" :key="item.text" class="leading-[1.4] mb-2">
                   <template v-if="item.text">
                     {{ item.text }} <a :href="item.link" target="_blank" class="text-green-600">{{ item.link }}</a>
                   </template>
