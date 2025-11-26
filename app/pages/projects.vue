@@ -84,7 +84,7 @@
 <script setup lang="ts">
 import translate from "@/utils/translate"
 const mainstore = useMainStore()
-const projects: IProject[] = mainstore.getContentBy("projects") 
+const projects = mainstore.getContentBy("project") 
 const activeId = ref("")
 if (projects && projects[0]) {
   activeId.value = projects[0].id

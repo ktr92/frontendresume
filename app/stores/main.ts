@@ -7,7 +7,7 @@ export const useMainStore = defineStore('mainStore', () => {
   // getters
   const getContent = computed(() => content.value)
 
-  const getContentBy = (key: string) => content.value?.[key] ? content.value?.[key] : []
+  const getContentBy = (key: IContentKeys) => content.value?.[key] ? content.value?.[key] : []
 
   //actions
    function setContent(payload: IContent) {
