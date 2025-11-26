@@ -319,27 +319,7 @@
     }
   ],
   "project": [
-    {
-      "id": "6696c802f2e8ee376f9405b9",
-      "prname": "AZLOG WIDGET - Виджет калькулятора грузоперевозок ",
-      "prdescription": "Разработка виджета калькулятора грузоперевозок для возможности встраивания на сторонние сайты.",
-      "prtags": ["html", "js", "css"],
-      "prlink": "https://ktr92.github.io/azlog_widget/index_v2.html",
-      "prgit": "https://github.com/ktr92/azlog_widget",
-      "prwork": "",
-      "prsort": 30,
-      "__v": 0,
-      "i18n": {
-        "prname": {
-          "ru": "AZLOG WIDGET - Виджет калькулятора грузоперевозок ",
-          "en": "AZLOG WIDGET - Freight calculator widget"
-        },
-        "prdescription": {
-          "ru": "Верстка виджета калькулятора грузоперевозок для возможности встраивания на сторонние сайты.",
-          "en": "The widget for embedding on third-party websites."
-        }
-      }
-    },
+   
     {
       "id": "6672c48f2ba88a802ada644e",
       "prname": "Приложение для изучения иностранных слов Nuxt3, TS + мобильное приложение Capacitor",
@@ -503,6 +483,27 @@
       "prwork": "//katalinashop.ru/",
       "prsort": 27,
       "__v": 0
+    },
+     {
+      "id": "6696c802f2e8ee376f9405b9",
+      "prname": "AZLOG WIDGET - Виджет калькулятора грузоперевозок ",
+      "prdescription": "Разработка виджета калькулятора грузоперевозок для возможности встраивания на сторонние сайты.",
+      "prtags": ["html", "js", "css"],
+      "prlink": "https://ktr92.github.io/azlog_widget/index_v2.html",
+      "prgit": "https://github.com/ktr92/azlog_widget",
+      "prwork": "",
+      "prsort": 30,
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "AZLOG WIDGET - Виджет калькулятора грузоперевозок ",
+          "en": "AZLOG WIDGET - Freight calculator widget"
+        },
+        "prdescription": {
+          "ru": "Верстка виджета калькулятора грузоперевозок для возможности встраивания на сторонние сайты.",
+          "en": "The widget for embedding on third-party websites."
+        }
+      }
     },
     {
       "id": "6598048aaa31ea98152726741",
