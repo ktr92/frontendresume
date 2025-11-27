@@ -34,12 +34,14 @@
                       <div
                         v-for="prtag in project.prtags"
                         :key="prtag"
-                        class="text-center w-8"
+                        class="text-center  flex items-center ml-2"
                       >
                         <img
                           :src="`/img/${prtag}.svg`"
-                          class="w-6 h-6 block m-auto"
+                          width="25" height="24"
+                          class="w-6  block m-auto"
                         />
+                        <span class="pl-1 text-[10px] text-gray-500 uppercase font-bold">{{ prtag }}</span>
                       </div>
                     </div>
                   </div>
@@ -52,17 +54,17 @@
                 <div class="overflow-hidden">
                   <div
                     class="mt-2 mb-4 text-gray-600 dark:text-white text-[15px] leading-[1.4]"
+                    v-html="translate(project, project.prdescription)"
                   >
-                    {{ project.prdescription }}
                   </div>
                   <div class="flex items-center gap-2 mb-2">
-                    <UiButton :link="project.prlink">
+                    <UiButton :link="project.prlink" v-if="project.prlink">
                       {{ $t("DEMO") }}
                     </UiButton>
-                    <UiButton :link="project.prwork">
+                    <UiButton :link="project.prwork" v-if="project.prwork">
                       {{ $t("WEBSITE") }}
                     </UiButton>
-                    <UiButton :link="project.prgit">
+                    <UiButton :link="project.prgit" v-if="project.prgit">
                       {{ $t("GITHUB") }}
                     </UiButton>
                   </div>

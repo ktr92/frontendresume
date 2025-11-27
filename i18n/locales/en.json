@@ -14,6 +14,10 @@
   "title_education": "Education",
   "title_skills": "Skills",
   "title_information": "Extra information",
-     "gotoresume": "Go back to resume"
+     "gotoresume": "Go back to resume",
+      "DEMO": "Demo",
+   "GITHUB": "Source code Github",
+   "WEBSITE": "Production"
+
 
 }

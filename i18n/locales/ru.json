@@ -14,7 +14,9 @@
   "title_education": "Образование",
   "title_skills": "Навыки",
   "title_information": "Дополнительная информация",
-   "gotoresume": "Вернуться к резюме"
-
+   "gotoresume": "Вернуться к резюме",
+   "DEMO": "Демо",
+   "GITHUB": "Исходный код Github",
+   "WEBSITE": "Рабочий сайт"
 
 }

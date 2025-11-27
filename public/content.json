@@ -2,7 +2,7 @@
   "about": [
    {
       "id": "about1",
-      "text": "Работаю Frontend разработчиком с 2015 года. Занимался разносторонними задачами: от верстки одностраничных сайтов, до разработки полноценных приложений и интерфейсов. Первичные навыки и понимание всех аспектов программирования получил в университете по профильной специальности. В данный момент нахожусь в поисках работы в интересной растущей компании.",
+      "text": "Работаю Frontend разработчиком с 2015 года. Занимался разносторонними задачами: от верстки одностраничных сайтов, до разработки полноценных приложений и интерфейсов. Первичные навыки и понимание основ программирования получил в университете по профильной специальности. В данный момент нахожусь в поисках работы в интересной растущей компании.",
       "i18n": {
         "text": {
           "ru": "Работаю Frontend разработчиком с 2015 года. Занимался разносторонними задачами: от верстки одностраничных сайтов, до разработки полноценных приложений и интерфейсов. Первичные навыки и понимание всех аспектов программирования получил в университете по профильной специальности. В данный момент нахожусь в поисках работы в интересной растущей компании.",
@@ -352,91 +352,151 @@
    
     {
       "id": "6672c48f2ba88a802ada644e",
-      "prname": "Приложение для изучения иностранных слов Nuxt3, TS + мобильное приложение Capacitor",
+      "prname": "Приложение для изучения иностранных слов Nuxt + мобильное приложение Capacitor",
       "prdescription": "Для входа используйте следующие доступы:\nпочта - ktr716@yandex.ru\nпароль - demo\n\n- импорт из excel-csv файла - мультиязычность интерфейса",
-      "prtags": ["nuxt", "vue", "mongodb"],
+      "prtags": ["nuxt", "vue", "postgresql", "prisma"],
       "prlink": "https://wordcard.ru/",
       "prgit": "https://github.com/ktr92/quizlet",
       "prwork": "https://wordcard.ru/",
       "prsort": -999,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "Приложение для изучения иностранных слов. Nuxt, Prisma, PostgreSQL + Android приложение (Fullstack)",
+          "en": "Application for learning foreign words. Nuxt, Prisma, PostgreSQL + Android app (Fullstack)"
+        },
+        "prdescription": {
+          "ru": "Самостоятельная разработка для собственных нужд <a href='//wordcard.ru' target='_blank' class='text-green-600'>wordcard.ru</a>. <br>Для входа используйте следующие доступы: почта - <b>ktr716@yandex.ru</b> пароль -  <b>demo</b>\n\n<br>Разработано с помощью: <b>Nuxt 4, Vue composition API, Typescript, Prisma ORM, PostgreSQL.</b><br> Мобильное Android приложение с общей кодовой базой с помощью <b>Capacitor</b>.",
+          "en": "Self-development for my own needs <a href='//wordcard.ru' target='_blank' class='text-green-600'>wordcard.ru</a>. <br>Use the following acces to log in: email - <b>ktr716@yandex.ru</b> password - <b>demo</b>\n\n<br>Developed using: <b>Nuxt 4, Vue composition API, Typescript, Prisma ORM, PostgreSQL.</b><br> Mobile Android app with <b>Capacitor</b>."
+        }
+      }
     },
     {
       "id": "6672c48f2ba88dasdrada644e",
       "prname": "Приложение для учета инвестиций",
       "prdescription": "Графики D3.js, данные REST API https://www.tbank.ru/invest/open-api/",
-      "prtags": ["nuxt", "vue", "mongodb"],
+      "prtags": ["nuxt", "vue"],
       "prlink": "https://nuxt3invest.vercel.app/",
       "prgit": "https://github.com/ktr92/quizlet",
       "prwork": "",
       "prsort": -999,
-      "__v": 0
-    },
-    {
-      "id": "66ae7ee5d9f73ec0b5f39035",
-      "prname": "Фронтенд приложение для учета инвестиций на JavaScript + TypeScript",
-      "prdescription": "Данное приложение полностью рендерится на фронте, с помощью динамичных компонентов, на основе предоставленных данных (инвестиционных портфелей).\nКотировки обновляются через API MOEX (Московской биржи).\n\nПриложение написано на нативном Javascript с помощью Typescript (без использования фреймворков, без использования каких-либо готовых библиотек).\n\nВ данный момент приложение не готово, содержит баги.\n",
-      "prtags": ["js", "ts"],
-      "prlink": "https://ktr92.github.io/investapp/dist/",
-      "prgit": "https://github.com/ktr92/investapp",
-      "prwork": "",
-      "prsort": -99,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "Приложение для учета инвестиций. Nuxt, графики D3.js, REST API (Frontend)",
+          "en": "Investment Accounting Application. Nuxt, graphics D3.js, REST API (Frontend)"
+        },
+        "prdescription": {
+          "ru": "Графики <b>D3.js</b>, получение данных <b>REST API</b> https://www.tbank.ru/invest/open-api/",
+          "en": "Graphics <b>D3.js</b>, data fetch <b>REST API</b> https://www.tbank.ru/invest/open-api/"
+        }
+      }
     },
     {
       "id": "634fe92f4feaa5e5f6f2ecf8",
-      "prname": "Frontend приложение для онлайн-сервиса NuxtJs REST API",
-      "prdescription": "Представляет собой калькулятор для подбора недвижимости по множеству параметров, получаемых по API.  Динамически формирует сетку с фильтром в зависимости от настроек, получаемых по API. Выводит результаты, подходящие под выбранные критерии, полученные по API. Отправляет заявки в CRM систему. Отображает список отправленных заявок, их статус, а также детальную информацию о каждой заявке. ",
-      "prtags": ["nuxt", "vue"],
+      "prname": "Приложение для онлайн-сервиса подбора недвижимости. Nuxt (Frontend)",
+      "prdescription": "Калькулятор для подбора недвижимости по множеству параметров, получаемых по API. <b>Динамически формирующийся фильтр в зависимости от настроек</b>, получаемых по API. Выводит результаты, подходящие под выбранные критерии, полученные по API. Отправляет заявки в CRM систему. Отображает список отправленных заявок, их статус, а также детальную информацию о каждой заявке.",
+      "prtags": ["nuxt", "vue", "figma"],
       "prlink": "https://itrent.onrender.com/",
       "prgit": "https://github.com/ktr92/itrent",
       "prwork": "",
       "prsort": 0,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "Приложение для онлайн-сервиса подбора недвижимости. Nuxt, REST API (Frontend)",
+          "en": "Online real estate selection service. Nuxt, REST API (Frontend)"
+        },
+        "prdescription": {
+          "ru": "Фильтр для подбора недвижимости по множеству параметров, получаемых по API. <b>Динамически составляемый фильтр в зависимости от настроек, получаемых по API</b>. Выводит результаты, подходящие под выбранные критерии, полученные по API. Отправление заявки в CRM систему. Отображает список отправленных заявок, их статус, а также детальную информацию о каждой заявке.",
+          "en": "Filter for real estate selection based on variety parameters received via API. <b>Dinamically generated filter depending on settings received via API</b>. Displaying the results received through API that correspond to the selected parameters. Sending applications to a CRM system. Displaying the list of sended applications and detailed information about each of them."
+        }
+      }
+    },
+    {
+      "id": "623f104b9862ccc2b332cb4e",
+      "prname": "CRM система индивидуально для компании. NuxtJS MongoDB (Fullstack)",
+      "prdescription": "CRM система для студии заточки. Основным требованием было заменить используемую ранее систему в формате Excel таблиц и перенести все данные из старой системы в новую. Особое требование - быстрое отображение статистики клиента при вводе номера, до его добавления в базу за текущий день, чтобы понять, кто этот клиент и сразу принять решение об условиях его обслуживания.<br>\nДополнительные требования: схожесть с excel таблицами, простота использования, статистика по произвольному интервалу времени. <br>\nОсновные функции:\n+ добавление новых клиентов\n+ мгновенное отображение статистики по клиенту в момент ввода номера\n+ отображение списка клиентов и суммарная статистика за текущий день\n+ редактирование параметров заказа клиентов только в текущий день\n+ статистика за произвольный промежуток времени по клиентам, по админам, по курьерам, по мастерам (в демо тестовые данные)\n\n",
+      "prtags": ["nuxt", "vue", "mongodb", "vuetify"],
+      "prlink": "https://crmvuetify.vercel.app/days",
+      "prgit": "https://github.com/ktr92/crmvuetify",
+      "__v": 0,
+      "prsort": 10,
+      "i18n": {
+        "prname": {
+          "ru": "CRM система индивидуально для компании. Nuxt, MongoDB (Fullstack)",
+          "en": "CRM system developed individually for the company. Nuxt, MongoDB (Fullstack)"
+        },
+        "prdescription": {
+          "ru": "CRM система для мастерской заточки инструментов https://zatochkaideal.ru/. <br><b>Основным требованием было заменить используемую ранее систему в формате EXCEL таблиц и перенести все данные из старой системы в новую</b>. <br>- Особое требование - быстрый поиск и отображение статистики клиента в процессе ввода его номера телефона.<br>- Дополнительные требования: схожесть с EXCEL таблицами, простота использования, статистика по произвольному интервалу времени. <br>- Основные функции: добавление новых клиентов, отображение списка клиентов и суммарная статистика за текущий день, редактирование параметров заказа клиентов только в день посещения, статистика за произвольный промежуток времени по клиентам, по админам, по курьерам, по мастерам (в демо тестовые данные)",
+          "en": "CRM system for tool sharpening workshop https://zatochkaideal.ru/. <br>The basic requirement requirement was replacing the previously used EXCEL tables (as their improvised CRM) and transfer all data from EXCEL tables to the new CRM.<br> - Special requirement - quick search and display customer's information during the phone number entry process.<br> - Additional requirements: the similarity to EXCEL tables, ease of use, statistics for any time range. <br> - Functionality: adding new customers, displaying all customer's list, displaying company's statistics for any time range, editing customer orders only on the day of his visit, statistics by customets, by administrators, by couriers, by foremen."
+        }
+      }
     },
     {
       "id": "634ff16d0134faf1e52d721a",
-      "prname": "Frontend приложениe для личного кабинета NuxtJs REST API",
-      "prdescription": "Представляет собой интерфейс для отображения, добавления, удаления и изменения информации о пользователях системы. ",
-      "prtags": ["nuxt", "vue"],
+      "prname": "Frontend приложениe для личного кабинета пользователя. Nuxt, REST API (Frontend)",
+      "prdescription": "Интерфейс для отображения, добавления, удаления и изменения информации о пользователях системы. ",
+      "prtags": ["nuxt", "vue", "figma"],
       "prlink": "",
       "prgit": "https://github.com/ktr92/itsuperbroker",
       "prwork": "",
       "prsort": 1,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "Интерфейс администратора пользователей. Nuxt, REST API (Frontend)",
+          "en": "Interface for users administrator. Nuxt (Frontend)"
+        },
+        "prdescription": {
+          "ru": "Интерфейс для отображения, добавления, удаления и изменения информации о пользователях системы. (CRUD интерфейс).",
+          "en": "Interface for displaying, adding, deleting and changing system's users. (CRUD interface)"
+        }
+      }
     },
     {
       "id": "664325dddd9b6ca73dfa5773",
-      "prname": "Frontend часть формы авторизации Vue 3 Tailwind для проекта",
+      "prname": "Форма авторизации приложения. Vue, Tailwind (Frontend)",
       "prdescription": "- Верстка по макету Figma\n- Форма с валидацией\n- Защита роутов от неавторизованных пользователей\n- Вывод сообщений об ошибках",
       "prtags": ["vue", "figma"],
       "prlink": "https://auth-app-nine-silk.vercel.app/",
       "prgit": "https://github.com/ktr92/auth-app",
       "prwork": "",
       "prsort": 1,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "Форма авторизации приложения. Vue, Tailwind (Frontend)",
+          "en": "Application's authentification form. Vue, Tailwind (Frontend)"
+        },
+        "prdescription": {
+          "ru": "Верстка, Валидация, Защита роутов от неавторизованных пользователей, Вывод сообщений об ошибках",
+          "en": "HTML coding, Validation, Protecting routes, Displaying errors"
+        }
+      }
     },
     {
       "id": "66434ee6e06d77734c837f86",
-      "prname": "Приложение для наблюдения за погодой в выбранных городах Nuxt 2",
+      "prname": "Приложение для наблюдения за погодой в выбранных городах. Nuxt, REST API",
       "prdescription": "Vue 2, Nuxt 2, Tailwind\n- rest api приложение принимает данные с сервиса openweathermap\n- поиск городов с использованием сервиса dadata\n- сохранение выбранных городов в localStorage ",
       "prtags": ["nuxt", "vue"],
       "prlink": "https://weatherapp-omega-five.vercel.app/",
       "prgit": "https://github.com/ktr92/weatherapp",
       "prwork": "",
       "prsort": 1,
-      "__v": 0
-    },
-    {
-      "id": "623f104b9862ccc2b332cb4e",
-      "prname": "CRM система NuxtJS MongoDB",
-      "prdescription": "CRM система для студии заточки. Основным требованием было заменить используемую ранее систему в формате Excel таблиц и перенести все данные из старой системы в новую. Особоя требование - быстрое отображение статистики клиента при вводе номера, до его добавления в базу за текущий день, чтобы понять, кто этот клиент и сразу принять решение об условиях его обслуживания.<br>\nДополнительные требования: схожесть с excel таблицами, простота использования, статистика по произвольному интервалу времени. <br>\nОсновные функции:\n+ добавление новых клиентов\n+ мгновенное отображение статистики по клиенту в момент ввода номера\n+ отображение списка клиентов и суммарная статистика за текущий день\n+ редактирование параметров заказа клиентов только в текущий день\n+ статистика за произвольный промежуток времени по клиентам, по админам, по курьерам, по мастерам (в демо тестовые данные)\n\n",
-      "prtags": ["nuxt", "vue", "mongodb", "vuetify"],
-      "prlink": "https://crmvuetify.vercel.app/days",
-      "prgit": "https://github.com/ktr92/crmvuetify",
       "__v": 0,
-      "prsort": 10
+      "i18n": {
+        "prname": {
+          "ru": "Приложение для наблюдения за погодой в выбранных городах. Nuxt, REST API (Fullstack)",
+          "en": "Application for monitoring the weather in selected areas. Nuxt, REST API (Fullstack)"
+        },
+        "prdescription": {
+          "ru": "Vue 2, Nuxt 2, Tailwind, REST API с сервиса https://openweathermap.org/<br>Поиск городов с использованием сервиса https://dadata.ru/<br>Сохранение выбранных городов в localStorage браузера",
+          "en": "Vue 2, Nuxt 2, Tailwind, REST API from https://openweathermap.org/<br>Search for cities using https://dadata.ru/<br>Saving selected cities in browser's localStorage"
+        }
+      }
     },
+    
     {
       "id": "623f12469862ccc2b332cb5d",
       "prname": "Подбор витаминов онлайн на Vue",
@@ -446,7 +506,17 @@
       "prgit": "//github.com/ktr92/appcalc",
       "__v": 0,
       "prwork": "//herbblog.ru/podbor-vitaminov/",
-      "prsort": 15
+      "prsort": 15,
+      "i18n": {
+        "prname": {
+          "ru": "Подбор подходящих витаминов по критериям онлайн. Vue (Frontend)",
+          "en": "Finding the right vitamins online according to parameters. Vue (Frontend)"
+        },
+        "prdescription": {
+          "ru": "Калькулятор калорий и нутриентов, подбор витаминов. В дальнейшем был интегрирован на страницу сайта-блога. Реализован на <b>Vue 3 Composition API</b>.",
+          "en": "Calorie and Nutrient Calculator, Vitamins selection. Integrated to the website page. Developed with <b>Vue 3 Composition API</b>."
+        }
+      }
     },
     {
       "id": "6598058faa31ea981527267f",
@@ -457,30 +527,40 @@
       "prgit": "https://github.com/ktr92/sutochno",
       "prwork": "//ohta-rent.ru/catalog/rent/apartamenty/",
       "prsort": 16,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "Виджет поиска отелей с календарем. Vue (Frontend)",
+          "en": "Hotel search widget with calendar. Vue (Frontend)"
+        },
+        "prdescription": {
+          "ru": "HTML верстка фильтра, разработка дополнительного функционала для выбора дат Vue.",
+          "en": "HTML filter coding, developing an addition functionality for datepicker Vue."
+        }
+      }
     },
     {
       "id": "6672c48f2ba88a802ada644e1",
-      "prname": "Приложение для подбора жилья с календарем на Vue. Работа с API яндекс карт",
+      "prname": "Приложение для подбора отелей с календарем. Работа с API яндекс карт",
       "prdescription": "",
       "prtags": ["vue", "js"],
       "prlink": "https://ktr92.github.io/rent_mapfilter/map.html",
       "prgit": "https://github.com/ktr92/rent_mapfilter",
       "prwork": "//vse.rent/catalog/goroda/",
       "prsort": 17,
-      "__v": 0
-    },
-    {
-      "id": "62409c57a20ea79d992ab7a3",
-      "prname": "Сайт-резюме NuxtJS MongoDB",
-      "prdescription": "- Vue2 Nuxt2\n- Использована UI библиотека ElementUI\n- Админ-панель с авторизацией https://nuxtresume.vercel.app/admin\n- Добавление проектов через админ-панель https://skr.sh/sPj6itSh338 \n- Сохрание проектов в базе данных MongoDB",
-      "prtags": ["nuxt", "vue", "mongodb", "vuetify", "scss"],
-      "prlink": "//nuxtresume-20-99g1.vercel.app",
-      "prgit": "https://github.com/ktr92/nuxtresume_20",
-      "prwork": "",
       "__v": 0,
-      "prsort": 20
+      "i18n": {
+        "prname": {
+          "ru": "Интерфейс для подбора отелей с календарем. Работа с API Яндекс Карт (Frontend)",
+          "en": "Interface to selecting hotels with datepicker. Working with Yandex Maps API (Frontend)"
+        },
+        "prdescription": {
+          "ru": "<b>Кастомизированная карточка объекта</b> на карте. Реализовано <b>взаимодействие</b> между объектами на карте и в списке объектов на сайте.",
+          "en": "<b>Customized objects</b> on the map. Implementing of <b>interaction</b> between the object on the map and the object in the list of objects."
+        }
+      }
     },
+    
     {
       "id": "6243619067a47b389a4e119a",
       "prname": "VITAMINCOMPLEX - Интернет магазин OpenCart CMS",
