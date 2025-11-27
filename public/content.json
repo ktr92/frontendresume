@@ -476,6 +476,27 @@
       }
     },
     {
+      "id": "664325dddd9b6ca73dfad4344",
+      "prname": "Игра 5 букв для сайта НБКИ. Vue",
+      "prdescription": "Игра 5 букв для сайта НБКИ. Vue",
+      "prtags": ["vue", "figma"],
+      "prlink": "https://ktr92.github.io/5bukv/story.html",
+      "prgit": "https://github.com/ktr92/5bukv",
+      "prwork": "https://story.nbki.ru/5bukv/",
+      "prsort": 1,
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "Игра '5 букв'. Vue",
+          "en": "Game '5 Words'. Vue"
+        },
+        "prdescription": {
+          "ru": "Каждый день загадается слово из сферы финансов. Пользователю предлагается угадать это слово путем ввода других слов из 5 букв. Угаданные буквы выделяются. Нужно раскрыть все буквы за 6 попыток.",
+          "en": "There is a hidden word from finance. User is supposed to guess the word entering 5-letters words. Solved letters are marked. All letters must be solved within 6 attempts."
+        }
+      }
+    },
+    {
       "id": "66434ee6e06d77734c837f86",
       "prname": "Приложение для наблюдения за погодой в выбранных городах. Nuxt, REST API",
       "prdescription": "Vue 2, Nuxt 2, Tailwind\n- rest api приложение принимает данные с сервиса openweathermap\n- поиск городов с использованием сервиса dadata\n- сохранение выбранных городов в localStorage ",
