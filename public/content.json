@@ -1,24 +1,54 @@
 {
   "about": [
-    {
+   {
       "id": "about1",
-      "text": "Ищу работу Frontend разработчиком в компании в сфере информационных технологий. Предлагаю свой опыт и навыки для полезного влияния на ваш продукт. Кроме того, заинтересован в развитии своих навыков и изучении новых возможностей.",
+      "text": "Работаю Frontend разработчиком с 2015 года. Занимался разносторонними задачами: от верстки одностраничных сайтов, до разработки полноценных приложений и интерфейсов. Первичные навыки и понимание всех аспектов программирования получил в университете по профильной специальности. В данный момент нахожусь в поисках работы в интересной растущей компании.",
       "i18n": {
         "text": {
-          "ru": "Ищу работу Frontend разработчиком в компании в сфере информационных технологий. Предлагаю свой опыт и навыки для полезного влияния на ваш продукт. Кроме того, заинтересован в развитии своих навыков и изучении новых возможностей.",
-          "en": "I am looking for a job as a Frontend developer in an information technology company. I offer my experience and skills to have a useful impact on your product. In addition, he is interested in developing his skills and exploring new opportunities."
+          "ru": "Работаю Frontend разработчиком с 2015 года. Занимался разносторонними задачами: от верстки одностраничных сайтов, до разработки полноценных приложений и интерфейсов. Первичные навыки и понимание всех аспектов программирования получил в университете по профильной специальности. В данный момент нахожусь в поисках работы в интересной растущей компании.",
+          "en": "I have been working as Frontend developer since 2015. I engaged in various tasks: from HTML coding to full-fledged applications and interfaces. I received initial skills and understading of all aspects of programming at the university in a specialized branch. I'm currently looking for a position in an interesting growing company."
         } 
       }
     }
   ],
   "aboutlist": [
-    {
+     {
       "id": "aboutlist1",
-      "text": "Полный рабочий день. Офис или удаленный формат.  Готов к переезду и командировкам.",
+      "text": "Предлагаю свой опыт и навыки для полезного влияния на ваш продукт.",
       "i18n": {
         "text": {
-          "ru": "Полный рабочий день. Офис или удаленный формат.  Готов к переезду и командировкам.",
+          "ru": "Предлагаю свой опыт и навыки для полезного влияния на ваш продукт.",
+          "en": "Providing my experience and skills to have a useful impact on your product."
+        } 
+      }
+    },
+     {
+      "id": "aboutlist2",
+      "text": "Заинтересован в развитии своих навыков и изучении новых возможностей.",
+      "i18n": {
+        "text": {
+          "ru": "Заинтересован в развитии своих навыков и изучении новых возможностей.",
+          "en": "Developing my skills and exploring new opportunities."
+        } 
+      }
+    },
+    {
+      "id": "aboutlist3",
+      "text": "Полный рабочий день. Офис или удаленный формат. Готов к переезду и командировкам.",
+      "i18n": {
+        "text": {
+          "ru": "Полный рабочий день. Офис или удаленный формат. Готов к переезду и командировкам.",
           "en": "Full-time. Office or remote format.  Ready to move and travel."
+        } 
+      }
+    },
+    {
+      "id": "aboutlist4",
+      "text": "Не заинтересован во временной проектной работе.",
+      "i18n": {
+        "text": {
+          "ru": "Не заинтересован во временной проектной работе.",
+          "en": "Not interested in temporary project work."
         } 
       }
     }
@@ -62,7 +92,7 @@
     },
     {
       "id": "information2",
-      "text": "более 7 лет опыта разработки на чистом Javascript - ES6 и выше",
+      "text": "более 7 лет опыта разработки на  Javascript - ES6 и выше",
       "i18n": {
         "text": {
           "ru": "Более 7 лет опыта разработки на чистом Javascript.",
@@ -72,11 +102,11 @@
     },
     {
       "id": "information3",
-      "text": "более 4 лет опыта разработки на фреймворках - Vue 2 и Vue 3, а также Nuxt 2 и Nuxt 3",
+      "text": "более 4 лет опыта разработки на фреймворках Vue, Nuxt",
       "i18n": {
         "text": {
-          "ru": "Более 7 лет опыта разработки на чистом Javascript.",
-          "en": "More than 7 years of Native Javascript code experience."
+          "ru": "более 4 лет опыта разработки на фреймворках Vue, Nuxt",
+          "en": "More than 4 years of Vue, Nuxt."
         }
       }
     },
@@ -92,11 +122,11 @@
     },
     {
       "id": "information5",
-      "text": "имеется опыт работы с REST API, MongoDB, MySQL, Firebase, Prisma ORM, Supabase",
+      "text": "имеется опыт работы с REST API, MongoDB, MySQL, Firebase, Prisma ORM, Supabase, MJML, D3.js",
       "i18n": {
         "text": {
-          "ru": "Имеется опыт работы с REST API, MongoDB, MySQL, Firebase, Prisma ORM, Supabase.",
-          "en": "Experience with REST API, MongoDB, MySQL, Firebase, Prisma ORM, Supabase."
+          "ru": "Имеется опыт работы с REST API, MongoDB, MySQL, Firebase, Prisma ORM, Supabase, MJML, D3.js.",
+          "en": "Experience with REST API, MongoDB, MySQL, Firebase, Prisma ORM, Supabase, MJML, D3.js."
         }
       }
     },
