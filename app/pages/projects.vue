@@ -17,7 +17,7 @@
             >
               <div
                 v-if="project.id"
-                class="md:flex items-center justify-between cursor-pointer accordion  p-2 dark:bg-gray-600 rounded"    
+                class="md:flex items-center justify-between cursor-pointer accordion p-2 md:py-0 dark:bg-gray-600 rounded"    
                 @click="toggleItem(project.id)"
               >
                 <div>
@@ -116,7 +116,7 @@ const toggleItem = (id: string) => {
   transform: rotate(180deg) translateY(50%);
 }
 .active {
-  @apply bg-white dark:bg-gray-700;
+  @apply bg-gray-200 dark:bg-gray-700;
 }
 .active-content {
   display: grid;
