@@ -82,11 +82,11 @@
   "information": [
     {
       "id": "information1",
-      "text": "более 10 лет опыта HTML, CSS/SCSS/JQuery (более 100 проектов)",
+      "text": "более 10 лет опыта HTML, CSS/SCSS/js (более 100 проектов)",
       "i18n": {
         "text": {
-          "ru": "Более 10 лет опыта HTML, CSS, JQuery (более 100 проектов).",
-          "en": "More than 10 years of HTML, CSS, JQuery experience (over 100 projects)."
+          "ru": "Более 10 лет опыта HTML, CSS, js (более 100 проектов).",
+          "en": "More than 10 years of HTML, CSS, js experience (over 100 projects)."
         }
       }
     },
@@ -585,13 +585,23 @@
     {
       "id": "6243619067a47b389a4e119a",
       "prname": "VITAMINCOMPLEX - Интернет магазин OpenCart CMS",
-      "prdescription": "Данный сайт был  создан на шаблоне CMS Opencart 2.1 и полностью сопровождался только мной по всем направлениям в течение более 4 лет.\n+ Настройка CMS и шаблона. \n+ Кастомизация шаблона и частично функционала.\n+ Подбор, установка и настройка модулей под требуемый функционал. \n+ Оптимизация и продвижение в поисковых системах. \n+ Управление контентной частью сайта.\n\nНа данный момент сайт полностью завершен и имеет высокие позиции в своем направлении.\n",
+      "prdescription": "",
       "prtags": ["opencart"],
-      "prlink": "//vitamincomplex.ru",
+      "prlink": "",
       "prgit": "",
       "prwork": "//vitamincomplex.ru",
       "prsort": 26,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "vitamincomplex.ru - Интернет магазин OpenCart 2.1 CMS",
+          "en": "vitamincomplex.ru - OpenCart 2.1 CMS Online Store"
+        },
+        "prdescription": {
+          "ru": "Единолично реализованный проект для клиента, с нуля до продвинутого магазина. Все этапы были работы были только на мне: <b>разработка на основе Opencart CMS, настройка модулей, SEO оптимизация, наполнение, продвижение</b>. <br>В последствии сайт стал <b>одним из лидеров поисковой выдачи</b> в своей сфере на 1-8 местах по ключевых запросам.",
+          "en": "Single-handidly completed project for a client, from scratch to an advanced store. All the stages of the work were on me alone: <b>Opencart CMS-based development, modules configuration, SEO optimization, content filling, promotion.</b><br> Subsequently, the website become one of the leaders of the search results</b> in 1-8 places for key queries."
+        }
+      }
     },
     {
       "id": "624363bfd9231d55c3dd045c",
@@ -602,7 +612,17 @@
       "prgit": "",
       "prwork": "//spanishcosmetics.ru/",
       "prsort": 27,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "spanishcosmetics.ru - Интернет магазин OpenCart 3.0 CMS",
+          "en": "spanishcosmetics.ru - OpenCart 3.0 CMS Online Store"
+        },
+        "prdescription": {
+          "ru": "Единолично реализованный проект для клиента, с нуля до продвинутого магазина. Все этапы были работы были только на мне: <b>разработка на основе Opencart CMS, настройка модулей, SEO оптимизация, наполнение, продвижение</b>. <br>Сайт обошел всех конкуретнов как дистрибьютер испанской косметики.",
+          "en": "Single-handidly completed project for a client, from scratch to an advanced store. All the stages of the work were on me alone: <b>Opencart CMS-based development, modules configuration, SEO optimization, content filling, promotion.</b><br> The website has outperformed all competitors as a distributor of Spanish cosmetics."
+        }
+      }
     },
     {
       "id": "624363bfd9231d55c3dd045c1",
@@ -613,9 +633,170 @@
       "prgit": "",
       "prwork": "//katalinashop.ru/",
       "prsort": 27,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "katalinashop.ru - Интернет магазин OpenCart 3.0 CMS",
+          "en": "katalinashop.ru - OpenCart 3.0 CMS Online Store"
+        },
+        "prdescription": {
+          "ru": "Настройка сайта на основе шаблона CMS Opencart.",
+          "en": "Website configuration based on a CMS Opencart template."
+        }
+      }
     },
-     {
+   
+   
+    {
+      "id": "6598048aaa31ea9815272674",
+      "prname": "LEAKME - Верстка сайта  ",
+      "prdescription": "Верстка сайта с масштабируемым адаптивом под ширину экрана. ",
+      "prtags": ["html", "js", "scss", "figma"],
+      "prlink": "https://ktr92.github.io/nft_smarwallets/dist/start.html",
+      "prgit": "https://github.com/ktr92/nft_smarwallets",
+      "prwork": "//leak.me/",
+      "prsort": 28,
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "leak.me - Верстка сайта с масштабируемой адаптивность",
+          "en": "leak.me - HTML coding with scalable responsive design"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML. Адаптивность под размер экрана способом масштабирования размеров элементов.",
+          "en": "HTML coding, Responsive design of the website by scaling the size of the elements."
+        }
+      }
+    },
+    {
+      "id": "6598048aaa31ea9815272674",
+      "prname": "LEAKME - Верстка лендинга  ",
+      "prdescription": "Верстка сайта с масштабируемым адаптивом под ширину экрана. ",
+      "prtags": ["html", "js", "scss", "figma"],
+      "prlink": "https://ktr92.github.io/nft_kol/dist/landing.html",
+      "prgit": "",
+      "prwork": "//leak.me/",
+      "prsort": 28,
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "leak.me - Верстка HTML, CSS, JS",
+          "en": "leak.me - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma. googlepagespeed optimization"
+        }
+      }
+    },
+
+    {
+      "id": "6241a4f45249548129e72391",
+      "prname": "ADMINPANEL - Верстка личного кабинета",
+      "prdescription": "Адаптивная верстка личного кабинете для сервиса по работе с соцсетями. Передана на интеграцию программисту, но ссылки на рабочую версию у меня нет.",
+      "prtags": ["html", "css", "js", "figma"],
+      "prlink": "https://ktr92.github.io/adminpanel/start.html",
+      "prgit": "https://github.com/ktr92/adminpanel",
+      "prwork": "",
+      "prsort": 255,
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "Административная панель - Верстка HTML, CSS, JS",
+          "en": "Admin Dashboard - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma",
+          "en": "HTML, CSS, JS coding according to Figma"
+        }
+      }
+    },
+    {
+      "id": "6240a8e9a20ea79d992ab7d0",
+      "prname": "NBKI - Верстка сайта",
+      "prdescription": "Адаптивная верстка информационного сайта для крупнейшего в России бюро кредитных историй. Интегрирована на Битрикс.",
+      "prtags": ["html", "css", "js", "figma"],
+      "prlink": "https://ktr92.github.io/nbki_v5/start.html",
+      "prgit": "https://github.com/ktr92/nbki_v5",
+      "prwork": "//nbki.ru/",
+      "__v": 0,
+      "prsort": 30,
+      "i18n": {
+        "prname": {
+          "ru": "NBKI - Верстка HTML, CSS, JS",
+          "en": "NBKI - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
+    },
+    {
+      "id": "6240a945a20ea79d992ab7d4",
+      "prname": "NBKI story - Верстка блога ",
+      "prdescription": "Адаптивная верстка сайта-блога для крупнейшего бюро кредитных историй в России. Интегрирована на Битрикс. В демо не включены многочисленные доработки и макеты новых модулей.",
+      "prtags": ["html", "css", "js", "figma"],
+      "prlink": "https://ktr92.github.io/storynbki/index.html",
+      "prgit": "https://github.com/ktr92/storynbki",
+      "prwork": "//story.nbki.ru/",
+      "__v": 0,
+      "prsort": 35,
+      "i18n": {
+        "prname": {
+          "ru": "NBKI Story - Верстка HTML, CSS, JS",
+          "en": "NBKI Story - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
+    },
+
+    {
+      "id": "6240b344a20ea79d992ab7e3",
+      "prname": "NBKI - Верстка личного кабинета ",
+      "prdescription": "Адаптивная верстка страниц личного кабинета для сервиса кредитных историй НБКИ. В дальнейшем был передан на интегрирацию программистам, однако нет возможности продемострировать рабочую версию.",
+      "prtags": ["html", "scss", "js", "figma"],
+      "prlink": "https://ktr92.github.io/nbki-lk/dist/start.html",
+      "prgit": "https://github.com/ktr92/nbki-lk",
+      "prwork": "https://person.nbki.ru/login",
+      "__v": 0,
+      "prsort": 40,
+      "i18n": {
+        "prname": {
+          "ru": "nbki.ru Личный кабинет - Верстка HTML, CSS, JS",
+          "en": "nbki.ru Account - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
+    },
+ {
+      "id": "6240a72ca20ea79d992ab7bf",
+      "prname": "AZLOG - Верстка сайта грузоперевозок",
+      "prdescription": "Адаптивная верстка html css js для сайта на Битрикс из макетов Figma. В демо представлен не полный состав работы. Калькулятор в дальнейшем был доработан с функционалом на JS. Версия по ссылке \"Сайт\" в данный момент интегрируется на Битрикс.",
+      "prtags": ["html", "scss", "js", "figma"],
+      "prlink": "https://ktr92.github.io/azlog_new/start.html",
+      "prgit": "https://github.com/ktr92/azlog-webpack",
+      "prwork": "//azlog.ru/",
+      "__v": 0,
+      "prsort": 30,
+      "i18n": {
+        "prname": {
+          "ru": "azlog.ru - Верстка HTML, CSS, JS",
+          "en": "azlog.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка виджета калькулятора грузоперевозок для возможности встраивания на сторонние сайты.",
+          "en": "The widget for embedding on third-party websites."
+        }
+      }
+    },
+      {
       "id": "6696c802f2e8ee376f9405b9",
       "prname": "AZLOG WIDGET - Виджет калькулятора грузоперевозок ",
       "prdescription": "Разработка виджета калькулятора грузоперевозок для возможности встраивания на сторонние сайты.",
@@ -627,8 +808,8 @@
       "__v": 0,
       "i18n": {
         "prname": {
-          "ru": "AZLOG WIDGET - Виджет калькулятора грузоперевозок ",
-          "en": "AZLOG WIDGET - Freight calculator widget"
+          "ru": "azlog.ru WIDGET - Виджет калькулятора грузоперевозок ",
+          "en": "azlog.ru WIDGET - Freight calculator widget"
         },
         "prdescription": {
           "ru": "Верстка виджета калькулятора грузоперевозок для возможности встраивания на сторонние сайты.",
@@ -636,75 +817,6 @@
         }
       }
     },
-    {
-      "id": "6598048aaa31ea98152726741",
-      "prname": "Верстка интерактивной таблицы",
-      "prdescription": "",
-      "prtags": ["html", "js", "scss", "figma"],
-      "prlink": "https://ktr92.github.io/nft_kol/dist/kol_main_062025.html",
-      "prgit": "https://github.com/ktr92/nft_kol/tree/main_062025",
-      "prwork": "//leak.me/",
-      "prsort": 28,
-      "__v": 0
-    },
-    {
-      "id": "6598048aaa31ea9815272674",
-      "prname": "LEAKME - Верстка сайта  ",
-      "prdescription": "Верстка сайта с масштабируемым адаптивом под ширину экрана. ",
-      "prtags": ["html", "js", "scss", "figma"],
-      "prlink": "https://ktr92.github.io/nft_smarwallets/dist/start.html",
-      "prgit": "https://github.com/ktr92/nft_smarwallets",
-      "prwork": "//leak.me/",
-      "prsort": 28,
-      "__v": 0
-    },
-    {
-      "id": "6598048aaa31ea9815272674",
-      "prname": "LEAKME - Верстка лендинга  ",
-      "prdescription": "Верстка сайта с масштабируемым адаптивом под ширину экрана. ",
-      "prtags": ["html", "js", "scss", "figma"],
-      "prlink": "https://ktr92.github.io/nft_kol/dist/landing.html",
-      "prgit": "",
-      "prwork": "//leak.me/",
-      "prsort": 28,
-      "__v": 0
-    },
-
-    {
-      "id": "6240a8e9a20ea79d992ab7d0",
-      "prname": "NBKI - Верстка сайта",
-      "prdescription": "Адаптивная верстка информационного сайта для крупнейшего в России бюро кредитных историй. Интегрирована на Битрикс.",
-      "prtags": ["html", "css", "jquery", "figma"],
-      "prlink": "https://ktr92.github.io/nbki_v5/start.html",
-      "prgit": "https://github.com/ktr92/nbki_v5",
-      "prwork": "//nbki.ru/",
-      "__v": 0,
-      "prsort": 30
-    },
-    {
-      "id": "6240a945a20ea79d992ab7d4",
-      "prname": "NBKI story - Верстка блога ",
-      "prdescription": "Адаптивная верстка сайта-блога для крупнейшего бюро кредитных историй в России. Интегрирована на Битрикс. В демо не включены многочисленные доработки и макеты новых модулей.",
-      "prtags": ["html", "css", "jquery", "figma"],
-      "prlink": "https://ktr92.github.io/storynbki/index.html",
-      "prgit": "https://github.com/ktr92/storynbki",
-      "prwork": "//story.nbki.ru/",
-      "__v": 0,
-      "prsort": 35
-    },
-
-    {
-      "id": "6240b344a20ea79d992ab7e3",
-      "prname": "NBKI - Верстка личного кабинета ",
-      "prdescription": "Адаптивная верстка страниц личного кабинета для сервиса кредитных историй НБКИ. В дальнейшем был передан на интегрирацию программистам, однако нет возможности продемострировать рабочую версию.",
-      "prtags": ["html", "scss", "jquery", "webpack", "figma"],
-      "prlink": "https://ktr92.github.io/nbki-lk/dist/start.html",
-      "prgit": "https://github.com/ktr92/nbki-lk",
-      "prwork": "https://person.nbki.ru/login",
-      "__v": 0,
-      "prsort": 40
-    },
-
     {
       "id": "67729d1f1ebbe837a76849ab",
       "prname": "AZLOG ЛК - верстка страниц и разработка калькулятора",
@@ -714,9 +826,39 @@
       "prgit": "https://github.com/ktr92/azlog_lk",
       "prwork": "https://azlog.ru/calc/",
       "prsort": 29,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "azlog.ru Личный кабинет - Верстка HTML, CSS, JS",
+          "en": "azlog.ru Account - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
-
+    {
+      "id": "62417ca45249548129e7233c",
+      "prname": "FISHORDER - Верстка макетов для мобильного приложения",
+      "prdescription": "Верстка макетов для интеграции интернет-магазина в мобильное приложение.",
+      "prtags": ["html", "css", "js", "photoshop"],
+      "prlink": "https://ktr92.github.io/fishorder.app/start.html",
+      "prgit": "https://github.com/ktr92/fishorder.app",
+      "prwork": "//fishorder.ru",
+      "prsort": 1272,
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "fishorder.ru - Верстка для мобильного приложения HTML, CSS, JS",
+          "en": "fishorder.ru - HTML, CSS, JS coding for mobile app"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
+    },
     {
       "id": "63bd1923685235b86d8c4870",
       "prname": "Borisik - Верстка интернет-магазина",
@@ -726,7 +868,17 @@
       "prgit": "https://github.com/ktr92/borisik",
       "prwork": "//borisik.ru",
       "prsort": 29,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "borisik.ru - Верстка HTML, CSS, JS",
+          "en": "borisik.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "63bd1923685235b86d8c4870",
@@ -737,7 +889,17 @@
       "prgit": "https://github.com/ktr92/meatshop",
       "prwork": "//shop.kolbasa.ru/",
       "prsort": 29,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "shop.kolbasa.ru - Верстка HTML, CSS, JS",
+          "en": "shop.kolbasa.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "67729c581ebbe837a76849a0",
@@ -748,7 +910,17 @@
       "prgit": "https://github.com/ktr92/sweetstore",
       "prwork": "//sweetstore.ru/",
       "prsort": 29,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "sweetstore.ru - Верстка HTML, CSS, JS",
+          "en": "sweetstore.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "67729c581ebbe837a76849a0",
@@ -759,19 +931,39 @@
       "prgit": "https://github.com/ktr92/complexsb",
       "prwork": "//complexsb.ru/",
       "prsort": 29,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "complexsb.ru - Верстка HTML, CSS, JS",
+          "en": "complexsb.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
 
     {
       "id": "6696c6ebf2e8ee376f9405ab",
       "prname": "TIHRYBCOM - Верстка сайта",
       "prdescription": "Адаптивная верстка сайта с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами ",
-      "prtags": ["html", "js", "css", "figma"],
+      "prtags": ["html", "scss", "figma"],
       "prlink": "https://ktr92.github.io/tihrybkom/dist/index.html",
       "prgit": "https://github.com/ktr92/tihrybkom",
       "prwork": "https://tihrybkom.info/",
       "prsort": 30,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "tihrybkom.info - Верстка HTML, CSS, JS",
+          "en": "tihrybkom.info - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
 
     {
@@ -783,20 +975,20 @@
       "prgit": "https://github.com/ktr92/fishproduct",
       "prwork": "https://rsp-market.ru/",
       "prsort": 30,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "rsp-market.ru - Верстка HTML, CSS, JS",
+          "en": "rsp-market.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
 
-    {
-      "id": "6240a72ca20ea79d992ab7bf",
-      "prname": "AZLOG - Верстка сайта грузоперевозок",
-      "prdescription": "Адаптивная верстка html css js для сайта на Битрикс из макетов Figma. В демо представлен не полный состав работы. Калькулятор в дальнейшем был доработан с функционалом на JS. Версия по ссылке \"Сайт\" в данный момент интегрируется на Битрикс.",
-      "prtags": ["html", "scss", "js", "webpack", "figma"],
-      "prlink": "https://ktr92.github.io/azlog_new/start.html",
-      "prgit": "https://github.com/ktr92/azlog-webpack",
-      "prwork": "//azlog.ru/",
-      "__v": 0,
-      "prsort": 30
-    },
+   
     {
       "id": "65980980413124d730c80826",
       "prname": "R2GRUPP - Верстка сайта грузоперевозок",
@@ -806,32 +998,82 @@
       "prgit": "https://github.com/ktr92/r2grupp",
       "prwork": "//r2grupp.ru",
       "prsort": 31,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "r2grupp.ru - Верстка HTML, CSS, JS",
+          "en": "r2grupp.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "65980347aa31ea9815272668",
       "prname": "MARIDEL - Верстка интернет-магазина",
       "prdescription": "Адаптивная верстка сайта с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами ",
-      "prtags": ["html", "css", "jquery", "figma"],
+      "prtags": ["html", "css", "js", "figma"],
       "prlink": "https://ktr92.github.io/maridel/start.html",
       "prgit": "https://github.com/ktr92/maridel",
       "prwork": "//maridel.ru",
       "prsort": 33,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "maridel.ru - Верстка HTML, CSS, JS",
+          "en": "maridel.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
 
     {
       "id": "6240b643a20ea79d992ab7f2",
       "prname": "EMPIS - верстка сайта веб студии",
       "prdescription": "Адаптивная верстка простого сайта для веб студии.",
-      "prtags": ["html", "scss", "jquery", "webpack", "photoshop"],
+      "prtags": ["html", "scss", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/empis/project-support.html",
       "prgit": "https://github.com/ktr92/empis",
       "prwork": "//empis.ru",
       "__v": 0,
-      "prsort": 40
+      "prsort": 40,
+      "i18n": {
+        "prname": {
+          "ru": "empis.ru - Верстка HTML, CSS, JS",
+          "en": "empis.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
-
+ {
+      "id": "6598048aaa31ea98152726741",
+      "prname": "Верстка интерактивной таблицы",
+      "prdescription": "",
+      "prtags": ["html", "js", "scss", "figma"],
+      "prlink": "https://ktr92.github.io/nft_kol/dist/kol_main_062025.html",
+      "prgit": "https://github.com/ktr92/nft_kol/tree/main_062025",
+      "prwork": "//leak.me/",
+      "prsort": 28,
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "leak.me - HTML верстка интерактивной таблицы",
+          "en": "leak.me - HTML coding of an interactive table"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML",
+          "en": "HTML coding"
+        }
+      }
+    },
     {
       "id": "6240b9eaa20ea79d992ab809",
       "prname": "PRADEX - Верстка интернет-магазина",
@@ -841,36 +1083,45 @@
       "prgit": "https://github.com/ktr92/pradex",
       "prwork": "//pradex-moscow.ru/",
       "__v": 0,
-      "prsort": 1262
+      "prsort": 1262,
+      "i18n": {
+        "prname": {
+          "ru": "radex-moscow.ru - Верстка HTML, CSS, JS",
+          "en": "radex-moscow.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "6241f2b38d35edecc1a1b6da",
       "prname": "LUBICVETY - Верстка интернет магазина",
       "prdescription": "Адаптивная верстка сайта под требования UMI.CMS с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами.",
-      "prtags": ["html", "css", "jquery", "figma"],
+      "prtags": ["html", "css", "js", "figma"],
       "prlink": "https://ktr92.github.io/lubicvety/start.html",
       "prgit": "https://github.com/ktr92/lubicvety",
       "prwork": "https://lubicvety.ru/",
       "prsort": 250,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "lubicvety.ru - Верстка HTML, CSS, JS",
+          "en": "lubicvety.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS. googlepagespeed optimization"
+        }
+      }
     },
 
-    {
-      "id": "6241a4f45249548129e72391",
-      "prname": "ADMINPANEL - Верстка личного кабинета",
-      "prdescription": "Адаптивная верстка личного кабинете для сервиса по работе с соцсетями. Передана на интеграцию программисту, но ссылки на рабочую версию у меня нет.",
-      "prtags": ["html", "css", "jquery", "figma"],
-      "prlink": "https://ktr92.github.io/adminpanel/start.html",
-      "prgit": "https://github.com/ktr92/adminpanel",
-      "prwork": "",
-      "prsort": 255,
-      "__v": 0
-    },
     {
       "id": "6240b8eba20ea79d992ab805",
       "prname": "ALL.AGENCY - Верстка информационного сайта",
       "prdescription": "Адаптивная верстка простого сайта компании. ",
-      "prtags": ["html", "scss", "jquery", "webpack", "figma"],
+      "prtags": ["html", "scss", "js", "figma"],
       "prlink": "https://ktr92.github.io/all-agency/dist/",
       "prgit": "https://github.com/ktr92/all-agency",
       "prwork": "",
@@ -882,24 +1133,44 @@
       "id": "6241a0f95249548129e7238b",
       "prname": "EMPIS SUPPORT - Верстка лендинга",
       "prdescription": "Адаптивная верстка одностраничного сайта компании.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/empislanding2/dist/",
       "prgit": "https://github.com/ktr92/empislanding2",
       "prwork": "//support.empis.ru/",
       "prsort": 1268,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "support.empis.ru - Верстка HTML, CSS, JS",
+          "en": "support.empis.ru- HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
 
     {
       "id": "63515a1e9b1c8a4e5fc5f510",
       "prname": "REMVAC - верстка сайта",
       "prdescription": "Адаптивная верстка сайта с каталогом, информационными страницами, модальными окнами, слайдерами.",
-      "prtags": ["html", "css", "jquery", "webpack", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/remvac/start.html",
       "prgit": "https://github.com/ktr92/remvac",
       "prwork": "https://remvac.ru/",
       "prsort": 41,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "remvac.ru - Верстка HTML, CSS, JS",
+          "en": "remvac.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
 
     {
@@ -911,87 +1182,167 @@
       "prgit": "https://github.com/ktr92/centroznak",
       "prwork": "https://centroznak.ru/",
       "prsort": 41,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "centroznak.ru - Верстка HTML, CSS, JS",
+          "en": "centroznak.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "659802f0aa31ea9815272663",
       "prname": "SKSERVER - Верстка сайта",
       "prdescription": "Адаптивная верстка сайта с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами ",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/skserver/start.html",
       "prgit": "https://github.com/ktr92/skserver",
       "prwork": "",
       "prsort": 41,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "skserver - Верстка HTML, CSS, JS",
+          "en": "skserver - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
 
     {
       "id": "624186c15249548129e72353",
       "prname": "SVETDORZNAK - Верстка интернет магазина",
       "prdescription": "Адаптивная верстка сайта с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами. Реализован под интеграцию на Битрикс. ",
-      "prtags": ["html", "css", "jquery", "figma"],
+      "prtags": ["html", "css", "js", "figma"],
       "prlink": "https://ktr92.github.io/svetgorzkan/",
       "prgit": "https://github.com/ktr92/svetgorzkan",
       "prwork": "//svetdorznak.ru/",
       "prsort": 1264,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "svetdorznak.ru - Верстка HTML, CSS, JS",
+          "en": "svetdorznak.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "624184765249548129e7234f",
       "prname": "ZNAK23 - Верстка интернет магазина",
       "prdescription": "Адаптивная верстка сайта с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами. Реализован под интеграцию на Битрикс. ",
-      "prtags": ["html", "css", "jquery", "figma"],
+      "prtags": ["html", "css", "js", "figma"],
       "prlink": "https://ktr92.github.io/23znak/",
       "prgit": "https://github.com/ktr92/23znak",
       "prwork": "//znak23.ru/",
       "prsort": 1265,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "znak23.ru - Верстка HTML, CSS, JS",
+          "en": "znak23.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "62418a2c5249548129e72361",
       "prname": "CHELAZ - Верстка сайта с каталогом",
       "prdescription": "Адаптивная верстка небольшого сайта с каталогом для последующей интеграции на Битрикс.",
-      "prtags": ["html", "js", "jquery", "photoshop"],
+      "prtags": ["html", "js", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/chelaz/",
       "prgit": "https://github.com/ktr92/chelaz",
       "prwork": "//chelaz.ru/",
       "prsort": 1266,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "chelaz.ru - Верстка HTML, CSS, JS",
+          "en": "Nchelaz.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "62419d445249548129e72382",
       "prname": "ZOLOTOYLEV - Верстка интернет-магазина",
       "prdescription": "Адаптивная верстка интернет-магазина с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами. Приспособлен к интеграции на Битрикс.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/os-zolotoylev/",
       "prgit": "https://github.com/ktr92/os-zolotoylev",
       "prwork": "//zolotoylev.ru/",
       "prsort": 1266,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "NBKI Account - Верстка HTML, CSS, JS",
+          "en": "NBKI Account - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS. googlepagespeed optimization"
+        }
+      }
     },
 
     {
       "id": "6241a0f95249548129e7238b",
       "prname": "EMPIS SUPPORT - Верстка лендинга",
       "prdescription": "Адаптивная верстка одностраничного сайта компании.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/empislanding/dist/",
       "prgit": "https://github.com/ktr92/empislanding",
       "prwork": "//support.empis.ru/",
       "prsort": 1268,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "support.empis.ru v2 - Верстка HTML, CSS, JS",
+          "en": "support.empis.ru v2 - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
 
     {
       "id": "6241a0f95249548129e7238b",
       "prname": "EMPIS SUPPORT - Верстка лендинга",
       "prdescription": "Адаптивная верстка одностраничного сайта компании.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/os-empis-support/",
       "prgit": "https://github.com/ktr92/os-empis-support",
       "prwork": "//support.empis.ru/",
       "prsort": 1268,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "support.empis.ru - Верстка HTML, CSS, JS",
+          "en": "support.empis.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "624188a65249548129e7235d",
@@ -1002,30 +1353,40 @@
       "prgit": "https://github.com/ktr92/stamp",
       "prwork": "//stamp-msk.ru/",
       "prsort": 1270,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "stamp-msk.ru - Верстка HTML, CSS, JS",
+          "en": "stamp-msk.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "624180325249548129e72340",
       "prname": "SOFIARUGS - Верстка интернет магазина",
       "prdescription": "Адаптивная верстка сайта для магазина под требования Битрикс.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/sofiarugs/",
       "prgit": "https://github.com/ktr92/sofiarugs",
       "prwork": "//sofiarugs.ru",
       "prsort": 1271,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "sofiarugs.ru - Верстка HTML, CSS, JS",
+          "en": "sofiarugs.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
-    {
-      "id": "62417ca45249548129e7233c",
-      "prname": "FISHORDER - Верстка макетов для мобильного приложения",
-      "prdescription": "Верстка макетов для интеграции интернет-магазина в мобильное приложение.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
-      "prlink": "https://ktr92.github.io/fishorder.app/start.html",
-      "prgit": "https://github.com/ktr92/fishorder.app",
-      "prwork": "//fishorder.ru",
-      "prsort": 1272,
-      "__v": 0
-    },
+   
     {
       "id": "62419e765249548129e72385",
       "prname": "HOSTELS - Верстка сайта с каталогом",
@@ -1035,141 +1396,271 @@
       "prgit": "https://github.com/ktr92/hostel",
       "prwork": "",
       "prsort": 1272,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "hostel - Верстка HTML, CSS, JS",
+          "en": "hostel - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "6240b850a20ea79d992ab801",
       "prname": "PROVANS - Версткая сайта отеля",
       "prdescription": "Адаптивная верстка сайта компании для последующей интеграции на Битрикс.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/provans/",
       "prgit": "https://github.com/ktr92/provans/",
       "prwork": "//seasons-hotel.ru/",
       "__v": 0,
-      "prsort": 1261
+      "prsort": 1261,
+      "i18n": {
+        "prname": {
+          "ru": "seasons-hotel.ru - Верстка HTML, CSS, JS",
+          "en": "seasons-hotel.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
 
     {
       "id": "6598025aaa31ea981527265a",
       "prname": "Верстка шаблона для Wordpress",
       "prdescription": "Адаптивная верстка шаблона для новостного сайта",
-      "prtags": ["html", "css", "jquery"],
+      "prtags": ["html", "css", "js"],
       "prlink": "https://ktr92.github.io/sitenews/start.html",
       "prgit": "https://github.com/ktr92/sitenews",
       "prwork": "",
       "prsort": 41,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "sitenews - Верстка HTML, CSS, JS",
+          "en": "sitenews - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "6241f6708d35edecc1a1b6dd",
       "prname": "CARVING - Верстка сайта с каталогом",
       "prdescription": "Адаптивная верстка сайта под Битрикс с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами.",
-      "prtags": ["html", "scss", "jquery", "webpack", "figma"],
+      "prtags": ["html", "scss", "js", "figma"],
       "prlink": "https://ktr92.github.io/os-carving.ru/dist/",
       "prgit": "https://github.com/ktr92/os-carving.ru",
       "prwork": "",
       "prsort": 45,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "carving - Верстка HTML, CSS, JS",
+          "en": "carving - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "62418c265249548129e72365",
       "prname": "DIV - Верстка и интеграция на CMS Diafan",
       "prdescription": "Верстка + интеграция на CMS Diafan функционала сайта.\nАдаптивная верстка сайта с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами. ",
-      "prtags": ["diafan", "html", "css", "jquery", "php", "photoshop"],
+      "prtags": ["html", "css", "js", "php", "photoshop"],
       "prlink": "//divhtml.tmweb.ru/start.html",
       "prgit": "https://github.com/ktr92/div-diafan",
       "prwork": "//ooodiv.ru/",
       "prsort": 100,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "ooodiv.ru - Верстка HTML, CSS, JS. Интеграция CMS Diafan.",
+          "en": "ooodiv.ru - HTML, CSS, JS coding. CMS Diafan integration"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, интеграция на CMS Diafan. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, integration on CMS Diafan. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "624301e26d5984ee0e186815",
       "prname": "DEKO - Верстка и интеграция на CMS.diafan",
       "prdescription": "Адаптивная верстка сайта компании и интеграция на CMS Diafan с полным функционалом.",
-      "prtags": ["diafan", "html", "css", "jquery", "php", "photoshop"],
+      "prtags": ["html", "css", "js", "php", "photoshop"],
       "prlink": "//deko.tmweb.ru",
       "prgit": "https://github.com/ktr92/deko-diafan",
       "prwork": "//ooodeko.ru",
       "prsort": 105,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "ooodeko.ru - Верстка HTML, CSS, JS. Интеграция CMS Diafan.",
+          "en": "ooodeko.ru - HTML, CSS, JS coding. CMS Diafan integration"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, интеграция на CMS Diafan. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, integration on CMS Diafan. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "6241bf135249548129e723a5",
       "prname": "АйДаЕда - Верстка и интеграция на CMS.diafan",
       "prdescription": "Адаптивная верстка + интеграция на CMS Diafan с полным функционалом.\n",
-      "prtags": ["diafan", "html", "css", "jquery", "php", "photoshop"],
+      "prtags": ["html", "css", "js", "php", "photoshop"],
       "prlink": "//aydaeda-diafan.tmweb.ru/",
       "prgit": "https://github.com/ktr92/os-aydaeda",
       "prwork": "",
       "prsort": 110,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "aydaeda - Верстка HTML, CSS, JS. Интеграция CMS Diafan.",
+          "en": "aydaeda - HTML, CSS, JS coding. CMS Diafan integration"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, интеграция на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "6243024d6d5984ee0e18681d",
       "prname": "RUSMONUMENT - Верстка и интеграция на CMS.diafan",
       "prdescription": "Адаптивная верстка сайта компании ин интеграция на CMS Diafan с полный функционалом.",
-      "prtags": ["diafan", "html", "css", "jquery", "php", "photoshop"],
+      "prtags": ["html", "css", "js", "php", "photoshop"],
       "prlink": "//rusmonument.tmweb.ru",
       "prgit": "https://github.com/ktr92/rusmonument",
       "prwork": "//rusmonument.ru",
       "prsort": 115,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "rusmonument.ru - Верстка HTML, CSS, JS. Интеграция CMS Wordpress.",
+          "en": "rusmonument.ru - HTML, CSS, JS coding. CMS Wordpress integration."
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, интеграция на CMS Wordpress. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, integration on CMS Wordpress. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "62419fe15249548129e72388",
       "prname": "FIRLETKA - Верстка и интеграция на CMS.diafan",
       "prdescription": "Адаптивная верстка + интеграция на CMS Diafan интернет-магазина с каталогом, фильтром, информационными страницами, модальными окнами, слайдерами ",
-      "prtags": ["diafan", "html", "css", "jquery", "php", "photoshop"],
+      "prtags": ["html", "css", "js", "php", "photoshop"],
       "prlink": "//firletka.tmweb.ru/",
       "prgit": "https://github.com/ktr92/timestore-diafan",
       "prwork": "",
       "prsort": 120,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "timestore - Верстка HTML, CSS, JS. Интеграция CMS Diafan.",
+          "en": "timestore - HTML, CSS, JS coding. CMS Diafan integration."
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, интеграция на CMS Diafan. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, integration on CMS Diafan. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "624203ed8d35edecc1a1b6e5",
       "prname": "ECOLOGY-ONLINE - Верстка и интеграция на CMS.diafan",
       "prdescription": "Адаптивная верстка сайта и интеграция функционала на CMS Diafan.",
-      "prtags": ["diafan", "html", "css", "jquery", "php", "photoshop"],
+      "prtags": ["html", "css", "js", "php", "photoshop"],
       "prlink": "//ecology-online.tmweb.ru/uslugi/",
       "prgit": "https://github.com/ktr92/ecology-online",
       "prwork": "//ecology-online.ru/",
       "prsort": 125,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "ecology-online.ru - Верстка HTML, CSS, JS",
+          "en": "ecology-online.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "624207de8d35edecc1a1b6e9",
       "prname": "CHELNYSEPTIK - Верстка и интеграция на CMS.diafan",
       "prdescription": "Адаптивная верстка лендинга с каталогом и интеграция каталога и форм обратной связи на CMS Diafan.",
-      "prtags": ["diafan", "html", "css", "jquery", "php", "photoshop"],
+      "prtags": ["html", "css", "js", "php", "photoshop"],
       "prlink": "//lpseptik.tmweb.ru/",
       "prgit": "https://github.com/ktr92/lpseptik",
       "prwork": "//lp.chelnyseptik.ru/",
       "prsort": 130,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "lp.chelnyseptik.ru - Верстка HTML, CSS, JS",
+          "en": "lp.chelnyseptik.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "624196075249548129e7236e",
       "prname": "KAMAZIST - Верстка + интеграция на CMS.diafan",
       "prdescription": "Адаптивная верстка сайта с каталогом+ интеграция на CMS Diafan всего функционала сайта. ",
-      "prtags": ["diafan", "html", "css", "jquery", "php", "photoshop"],
+      "prtags": ["html", "css", "js", "php", "photoshop"],
       "prlink": "//kamazist.tmweb.ru/",
       "prgit": "",
       "prwork": "//kamalfazist.ru/",
       "prsort": 140,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "kamalfazist.ru - Верстка HTML, CSS, JS",
+          "en": "kamalfazist.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
 
     {
       "id": "6243069f6d5984ee0e186825",
       "prname": "VELVETMEDIA - Верстка сайта",
       "prdescription": "Адаптивная верстка сайта компании с информационными страницами.",
-      "prtags": ["html", "css", "jquery", "figma"],
+      "prtags": ["html", "css", "js", "figma"],
       "prlink": "https://ktr92.github.io/velvetmedia/",
       "prgit": "https://github.com/ktr92/velvetmedia",
       "prwork": "",
       "prsort": 2268,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "velvetmedia - Верстка HTML, CSS, JS",
+          "en": "velvetmedia - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "62417b4a5249548129e7232f",
@@ -1180,172 +1671,312 @@
       "prgit": "https://github.com/ktr92/dialog/",
       "prwork": "https://dialog16.ru/",
       "prsort": 2269,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "dialog16.ru - Верстка HTML, CSS, JS",
+          "en": "dialog16.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
-    {
-      "id": "63515b429b1c8a4e5fc5f51b",
-      "prname": "AQUA MAGIC - верстка лендинга",
-      "prdescription": "Адаптивная верстка лендинга.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
-      "prlink": "https://ktr92.github.io/aqua-magic",
-      "prgit": "https://github.com/ktr92/aqua-magic",
-      "prwork": "",
-      "prsort": 2269,
-      "__v": 0
-    },
+  
     {
       "id": "62419c6e5249548129e7237f",
       "prname": "LAWILA MEDICAL - Верстка лендинга",
       "prdescription": "Адаптивная верстка сайта простого одностраничного сайта для последующей интеграции на Битрикс.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "//lawilalend.tmweb.ru/",
       "prgit": "https://github.com/ktr92",
       "prwork": "//lawila.ru/services/medical/",
       "prsort": 2274,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "lawilalend - Верстка HTML, CSS, JS",
+          "en": "lawilalend - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "6240bac1a20ea79d992ab80d",
       "prname": "CMCRANK - Верстка сайта криптовалют",
       "prdescription": "Адаптивная верстка простого информационного сайта. ",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/cmc/",
       "prgit": "https://github.com/ktr92/cmc",
       "prwork": "",
       "__v": 0,
-      "prsort": 2275
+      "prsort": 2275,
+      "i18n": {
+        "prname": {
+          "ru": "cmcrank - Верстка HTML, CSS, JS",
+          "en": "cmcrank - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "624187735249548129e7235a",
       "prname": "LAWILA - Верстка лендинг",
       "prdescription": "Адаптивная верстка простого лендинга для последующей интеграции на Битрикс.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/lawila2/",
       "prgit": "https://github.com/ktr92/lawila2",
       "prwork": "//lawila.ru/retsirkulyatory-elbrus/",
       "prsort": 2275,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "lawila - Верстка HTML, CSS, JS",
+          "en": "lawila - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "6241bb135249548129e72399",
       "prname": "BMNG - Верстка сайта компании",
       "prdescription": "Адаптивная верстка простого сайта компании. ",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/os-bmng/",
       "prgit": "https://github.com/ktr92/os-bmng",
       "prwork": "//bmng.ru/",
       "prsort": 2275,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "bmng.ru - Верстка HTML, CSS, JS",
+          "en": "bmng.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "624198915249548129e72371",
       "prname": "ZAKON122 - Верстка сайта компании",
       "prdescription": "Адаптивная верстка простого информационного сайта компании.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/zakon122/",
       "prgit": "https://github.com/ktr92/zakon122/",
       "prwork": "",
       "prsort": 2275,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "zakon122 - Верстка HTML, CSS, JS",
+          "en": "zakon122 - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "6240bba3a20ea79d992ab810",
       "prname": "COOLRAY - Верстка лендинга",
       "prdescription": "Адаптивная верстка одностраничного сайта для автосолона. ",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/dialog_auto/index.html",
       "prgit": "https://github.com/ktr92/dialog_auto",
       "prwork": "//coolray.dialog16.ru/",
       "__v": 0,
-      "prsort": 2276
+      "prsort": 2276,
+      "i18n": {
+        "prname": {
+          "ru": "coolray.dialog16.ru - Верстка HTML, CSS, JS",
+          "en": "coolray.dialog16.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "6241a4175249548129e7238e",
       "prname": "BW GROUP - Верстка сайта с каталогом",
       "prdescription": "Адаптивная верстка простого сайта компании с каталогом для интеграции на Битрикс.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/bw/",
       "prgit": "https://github.com/ktr92/bw",
-      "prwork": "",
+      "prwork": "//2bw.ru",
       "prsort": 2277,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "2bw.ru - Верстка HTML, CSS, JS",
+          "en": "2bw.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "624304406d5984ee0e186821",
       "prname": "DNKGENETIK - Верстка лендинга",
       "prdescription": "Адаптивная верстка простого лендинга для контекстной рекламы.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/dnkgenetik/",
       "prgit": "https://github.com/ktr92/dnkgenetik",
       "prwork": "",
       "prsort": 2278,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "dnkgenetik - Верстка HTML, CSS, JS",
+          "en": "dnkgenetik - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "6241ef1b8d35edecc1a1b6d7",
       "prname": "CROCUS - Верстка сайта компании",
       "prdescription": "Адаптивная верстка простого сайта компании.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "//crocus.tmweb.ru/start.html",
       "prgit": "https://github.com/ktr92/os-crocus.ru",
       "prwork": "",
       "prsort": 2279,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "crocus - Верстка HTML, CSS, JS",
+          "en": "crocus - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "62419abf5249548129e72378",
       "prname": "PRIME - Верстка лендинга",
       "prdescription": "Адаптивная верстка просто одностраничного сайта.\n\n",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "//prime.webtm.ru/",
       "prgit": "https://github.com/ktr92/prime",
       "prwork": "//prime-export.com/",
       "prsort": 2279,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "prime-export.com - Верстка HTML, CSS, JS",
+          "en": "prime-export.com - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "624202518d35edecc1a1b6e2",
       "prname": "EVAKUATOR - Верстка лендинга",
       "prdescription": "Адаптивная верстка сайта просто лендинга.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "//gruzovoy-avtoevakuator.tmweb.ru/",
       "prgit": "https://github.com/ktr92/os-evakuator",
       "prwork": "//xn----8sbaagcad0bvq4bbeeso3affn0t.xn--p1ai/",
       "prsort": 2279,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "avtoevakuator - Верстка HTML, CSS, JS",
+          "en": "avtoevakuator - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "62419bbc5249548129e7237b",
       "prname": "OBTEKATEL-AUTO - Верстка лендинга",
       "prdescription": "Адаптивная верстка просто одностраничного сайта для последующей интеграции на Битрикс.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/os-obtekatel/",
       "prgit": "https://github.com/ktr92/os-obtekatel",
       "prwork": "",
       "prsort": 2279,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "obtekatel - Верстка HTML, CSS, JS",
+          "en": "obtekatel - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "6242096b8d35edecc1a1b6ec",
       "prname": "ECOVATA-KAMA - Верстка лендига",
       "prdescription": "Адаптивная верстка простого одностраничного сайта.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "//ecovata-kama.tmweb.ru/",
       "prgit": "https://github.com/ktr92/ecovata",
       "prwork": "//lp.ecovata-kama.ru/",
       "prsort": 2279,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "lp.ecovata-kama.ru - Верстка HTML, CSS, JS",
+          "en": "lp.ecovata-kama.ru - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "6241995a5249548129e72374",
       "prname": "YUNITEX - Верстка лендинга",
       "prdescription": "Адаптивная верстка просто одностраничного сайта.",
-      "prtags": ["html", "css", "jquery", "photoshop"],
+      "prtags": ["html", "css", "js", "photoshop"],
       "prlink": "https://ktr92.github.io/yunitex/",
       "prgit": "https://github.com/ktr92/yunitex",
       "prwork": "",
       "prsort": 2279,
-      "__v": 0
+      "__v": 0,
+      "i18n": {
+        "prname": {
+          "ru": "yunitex - Верстка HTML, CSS, JS",
+          "en": "yunitex - HTML, CSS, JS coding"
+        },
+        "prdescription": {
+          "ru": "Верстка HTML, CSS, JS по макету Figma, для интеграции на CMS Bitrix. Оптимизация для googlepagespeed.",
+          "en": "HTML, CSS, JS coding according to Figma, for integration on CMS Bitrix. googlepagespeed optimization"
+        }
+      }
     },
     {
       "id": "624182715249548129e72343",

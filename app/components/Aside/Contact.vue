@@ -38,7 +38,7 @@
 <script setup lang="ts">
 const links = useMainStore().getContentBy("contact")
 const route = useRoute()
-const isprojects = computed(() => route.path === "/projects")
+const isprojects = computed(() => route.path.includes("projects"))
 </script>
 
 <style scoped></style>
