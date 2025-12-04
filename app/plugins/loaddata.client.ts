@@ -41,5 +41,5 @@ export default defineNuxtPlugin(async (nuxtApp) => {
     initLocale(item)
   })
   store.setContent(content)
-
+  console.log(store)
 })
