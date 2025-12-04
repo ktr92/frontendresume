@@ -2,11 +2,23 @@
   <div
     class="relative w-full h-full overflow-y-auto pl-0 lg:pl-[400px] dark:bg-gray-700"
   >
-   123
+   
   </div>
 </template>
 
 <script setup lang="ts">
+import translate from "@/utils/translate"
+const mainstore = useMainStore()
+const projects = mainstore.getContentBy("project") 
+const activeId = ref("")
+if (projects && projects[0]) {
+  activeId.value = projects[0].id
+}
+
+const toggleItem = (id: string) => {
+  activeId.value !== id ? (activeId.value = id) : ""
+  nextTick()
+}
 </script>
 
 <style scoped>
