@@ -15,7 +15,38 @@
               class="rounded-md py-2 px-2 md:border-transparent bg-gray-100 dark:bg-gray-700 mb-1 "
               :class="{ active: activeId === project.id }"
             >
-              
+              <div
+                v-if="project.id"
+                class="md:flex items-center justify-between cursor-pointer accordion p-2 md:py-0 dark:bg-gray-600 rounded"    
+                @click="toggleItem(project.id)"
+              >
+                <div>
+                  <div
+                    v-if="project.prname"
+                    class="text-gray-700 dark:text-gray-200 text-sm leading-1 md:text-md"
+                  >
+                    {{ translate(project, project.prname) }}
+                  </div>
+                </div>
+                <div>
+                  <div v-if="project.prtags">
+                    <div class="flex gap-1 items-center mt-2">
+                      <div
+                        v-for="prtag in project.prtags"
+                        :key="prtag"
+                        class="md:text-center  flex items-center ml-4"
+                      >
+                        <img
+                          :src="`/img/${prtag}.svg`"
+                          width="25" height="24"
+                          class="w-4 md:w-6  block m-auto"
+                        />
+                        <span class="pl-1 text-[10px] text-gray-500 dark:text-gray-200 uppercase font-bold">{{ prtag }}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               
             </div>
           </div>
