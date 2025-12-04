@@ -2,7 +2,31 @@
   <div
     class="relative w-full h-full overflow-y-auto pl-0 lg:pl-[400px] dark:bg-gray-700"
   >
-   
+    <div class="p-2 md:p-8">
+      <NuxtLinkLocale to="/" class="block text-green-600 dark:text-green-400 underline"
+        >{{ $t('gotoresume')  }}</NuxtLinkLocale
+      >
+      <template v-if="projects">
+        <div class="my-4 text-lg">
+          <div class="">
+            <div
+              v-for="project in projects"
+              :key="project.id"
+              class="rounded-md py-2 px-2 md:border-transparent bg-gray-100 dark:bg-gray-700 mb-1 "
+              :class="{ active: activeId === project.id }"
+            >
+              
+              
+            </div>
+          </div>
+        </div>
+      </template>
+      <template v-else>
+        <div v-for="value in 22" :key="value">
+          <UiSkeleton />
+        </div>
+      </template>
+    </div>
   </div>
 </template>
 
