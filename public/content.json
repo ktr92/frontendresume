@@ -486,8 +486,9 @@
       "prsort": 1,
       "__v": 0,
       "i18n": {
-        "ru": "Игра «5 букв». Vue",
+       
         "prname": {
+           "ru": "Игра «5 букв». Vue",
           "en": "Game «5 Words». Vue"
         },
         "prdescription": {
