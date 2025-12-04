@@ -54,7 +54,7 @@
                 <div class="overflow-hidden">
                   <div
                     class="mt-2 mb-4 text-gray-600  text-sm  md:text-[15px] md:leading-[1.4] dark:text-gray-200"
-                    v-html="project.prdescription"
+                    v-html="translate(project, project.prdescription)"
                   >
                   </div>
                   <div class="flex items-center gap-2 mb-2">
