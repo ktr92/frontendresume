@@ -32,42 +32,7 @@
         </div>
       </div>
 
-      <div
-        class="grid grid-cols-1 px-4 pt-6 xl:grid-cols-2 xl:gap-8 dark:bg-gray-700"
-      >
-        <div class="mb-4 col-span-1 xl:mb-2">
-          <h2 class="text-xl font-semibold sm:text-2xl text-gray-700 dark:text-white">
-            {{ $t("title_experience") }}
-          </h2>
-          <template v-if="experience && experience.length">
-            <div class="my-4 text-lg">
-              <UiTimeline :timedata="experience" />
-            </div>
-          </template>
-          <template v-else>
-            <div v-for="value in 4" :key="value">
-              <UiSkeleton />
-            </div>
-          </template>
-        </div>
-
-        <div class="mb-4 col-span-1 xl:mb-2">
-          <h2 class="text-xl font-semibold sm:text-2xl text-gray-700 dark:text-white">
-            {{ $t("title_education") }}
-          </h2>
-
-          <template v-if="education && education.length">
-            <div class="my-4 text-lg">
-              <UiTimeline :timedata="education" />
-            </div>
-          </template>
-          <template v-else>
-            <div v-for="value in 4" :key="value">
-              <UiSkeleton />
-            </div>
-          </template>
-        </div>
-      </div>
+   
       <div
         class="grid grid-cols-1 px-4 pt-6 xl:grid-cols-2 xl:gap-8 dark:bg-gray-700"
       >
@@ -131,6 +96,42 @@
             </div>
           </template>
          
+        </div>
+      </div>
+         <div
+        class="grid grid-cols-1 px-4 pt-6 xl:grid-cols-2 xl:gap-8 dark:bg-gray-700"
+      >
+        <div class="mb-4 col-span-1 xl:mb-2">
+          <h2 class="text-xl font-semibold sm:text-2xl text-gray-700 dark:text-white">
+            {{ $t("title_experience") }}
+          </h2>
+          <template v-if="experience && experience.length">
+            <div class="my-4 text-lg">
+              <UiTimeline :timedata="experience" />
+            </div>
+          </template>
+          <template v-else>
+            <div v-for="value in 4" :key="value">
+              <UiSkeleton />
+            </div>
+          </template>
+        </div>
+
+        <div class="mb-4 col-span-1 xl:mb-2">
+          <h2 class="text-xl font-semibold sm:text-2xl text-gray-700 dark:text-white">
+            {{ $t("title_education") }}
+          </h2>
+
+          <template v-if="education && education.length">
+            <div class="my-4 text-lg">
+              <UiTimeline :timedata="education" />
+            </div>
+          </template>
+          <template v-else>
+            <div v-for="value in 4" :key="value">
+              <UiSkeleton />
+            </div>
+          </template>
         </div>
       </div>
     </main>
