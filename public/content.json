@@ -319,8 +319,8 @@
   "contact": [
     {
       "code": "email",
-      "link": "mailto:ktr716yandex.ru",
-      "text": "ktr716yandex.ru"
+      "link": "mailto:ktr716{'@'}yandex.ru",
+      "text": "ktr716{'@'}yandex.ru"
     },
     {
       "code": "tg",
@@ -353,7 +353,7 @@
     {
       "id": "6672c48f2ba88a802ada644e",
       "prname": "Приложение для изучения иностранных слов Nuxt + мобильное приложение Capacitor",
-      "prdescription": "Для входа используйте следующие доступы:\nпочта - ktr716yandex.ru\nпароль - demo\n\n- импорт из excel-csv файла - мультиязычность интерфейса",
+      "prdescription": "Для входа используйте следующие доступы:\nпочта - ktr716{'@'}yandex.ru\nпароль - demo\n\n- импорт из excel-csv файла - мультиязычность интерфейса",
       "prtags": ["nuxt", "vue", "postgresql", "prisma"],
       "prlink": "https://wordcard.ru/",
       "prgit": "https://github.com/ktr92/quizlet",
@@ -366,8 +366,8 @@
           "en": "Application for learning foreign words. Nuxt, Prisma, PostgreSQL + Android app (Fullstack)"
         },
         "prdescription": {
-          "ru": "Самостоятельная разработка для собственных нужд <a href='//wordcard.ru' target='_blank' class='text-green-600'>wordcard.ru</a>. <br>Для входа используйте следующие доступы: почта - <b>ktr716yandex.ru</b> пароль -  <b>demo</b>\n\n<br>Разработано с помощью: <b>Nuxt 4, Vue composition API, Typescript, Prisma ORM, PostgreSQL.</b><br> Мобильное Android приложение с общей кодовой базой с помощью <b>Capacitor</b>.",
-          "en": "Self-development for my own needs <a href='//wordcard.ru' target='_blank' class='text-green-600'>wordcard.ru</a>. <br>Use the following acces to log in: email - <b>ktr716yandex.ru</b> password - <b>demo</b>\n\n<br>Developed using: <b>Nuxt 4, Vue composition API, Typescript, Prisma ORM, PostgreSQL.</b><br> Mobile Android app with <b>Capacitor</b>."
+          "ru": "Самостоятельная разработка для собственных нужд <a href='//wordcard.ru' target='_blank' class='text-green-600'>wordcard.ru</a>. <br>Для входа используйте следующие доступы: почта - <b>ktr716{'@'}yandex.ru</b> пароль -  <b>demo</b>\n\n<br>Разработано с помощью: <b>Nuxt 4, Vue composition API, Typescript, Prisma ORM, PostgreSQL.</b><br> Мобильное Android приложение с общей кодовой базой с помощью <b>Capacitor</b>.",
+          "en": "Self-development for my own needs <a href='//wordcard.ru' target='_blank' class='text-green-600'>wordcard.ru</a>. <br>Use the following acces to log in: email - <b>ktr716{'@'}yandex.ru</b> password - <b>demo</b>\n\n<br>Developed using: <b>Nuxt 4, Vue composition API, Typescript, Prisma ORM, PostgreSQL.</b><br> Mobile Android app with <b>Capacitor</b>."
         }
       }
     },
