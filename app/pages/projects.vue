@@ -47,9 +47,10 @@
                   </div>
                 </div>
               </div>
+              <ClientOnly>
               <div
                 class="active-content"
-                
+                :class="{ activecontent: activeId === project.id }"
               >
                 <div class="overflow-hidden">
                   <div
@@ -70,6 +71,7 @@
                   </div>
                 </div>
               </div>
+              </ClientOnly>
             </div>
           </div>
         </div>
